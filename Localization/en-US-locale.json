@@ -1,0 +1,51 @@
+{
+    "aboutme": {
+        "about_user": {
+            "command_desc": "Shows the aboutme of another person",
+            "user_desc": "Person whose aboutme you want to see",
+            "user_name": "user"
+        },
+        "aboutme_config": {
+            "command_desc": "Choose the information about yourself that you want to display"
+        },
+        "addselect": {
+            "placeholder": "Add a field to your aboutme"
+        },
+        "callback": {
+            "embed_author": "Aboutme of: {}"
+        },
+        "removeselect": {
+            "placeholder": "Remove a field from your aboutme"
+        },
+        "update_aboutme": {
+            "command_desc": "Write something about yourself"
+        }
+    },
+    "generalutility": {
+        "clear_msgs": {
+            "amount_desc": "The amount of messages to clear",
+            "amount_name": "amount",
+            "command_desc": "Deletes x messages from the channel",
+            "deleted_message": "Deleting one message.",
+            "deleted_messages": "Deleting {} messages."
+        },
+        "cog_command_error": {
+            "MissingPermissions": "You do not have the necessary permissions.",
+            "NotOwner": "You are not my owner."
+        },
+        "get_avatar": {
+            "command_desc": "Sends a users Avatar",
+            "member_desc": "The user whose avatar you want",
+            "member_name": "user"
+        },
+        "get_guildicon": {
+            "command_desc": "Sends the Guild Icon"
+        }
+    },
+    "pygerstar": {
+        "on_command_error": {
+            "MissingPermissions": "You do not have the necessary permissions.",
+            "NotOwner": "You are not my owner."
+        }
+    }
+}

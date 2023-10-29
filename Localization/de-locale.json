@@ -1,0 +1,51 @@
+{
+    "aboutme": {
+        "about_user": {
+            "command_desc": "Zeigt das Aboutme einer Person",
+            "user_desc": "Die Person dessen Aboutme du m\u00f6chtest",
+            "user_name": "benutzer"
+        },
+        "aboutme_config": {
+            "command_desc": "W\u00e4hle die Informationen \u00fcber dich aus die angezeigt werden sollen"
+        },
+        "addselect": {
+            "placeholder": "F\u00fcge deinem Aboutme ein Feld hinzu"
+        },
+        "callback": {
+            "embed_author": "Aboutme von: {}"
+        },
+        "removeselect": {
+            "placeholder": "Entferne ein Feld aus deinem Aboutme"
+        },
+        "update_aboutme": {
+            "command_desc": "Schreibe etwas \u00fcber dich selbst"
+        }
+    },
+    "generalutility": {
+        "clear_msgs": {
+            "amount_desc": "Die Menge an zu l\u00f6schenden Nachrichten",
+            "amount_name": "anzahl",
+            "command_desc": "L\u00f6scht x Nachrichten aus dem Channel",
+            "deleted_message": "L\u00f6sche eine Nachricht.",
+            "deleted_messages": "L\u00f6sche {} Nachrichten."
+        },
+        "cog_command_error": {
+            "MissingPermissions": "Du hast nicht die ben\u00f6tigten Berechtigungen.",
+            "NotOwner": "Du bist nicht mein Besitzer."
+        },
+        "get_avatar": {
+            "command_desc": "Sendet den Avatar eines Benutzers",
+            "member_desc": "Der Benutzer dessen Avatar du m\u00f6chtest",
+            "member_name": "benutzer"
+        },
+        "get_guildicon": {
+            "command_desc": "Sendet das Guild Icon"
+        }
+    },
+    "pygerstar": {
+        "on_command_error": {
+            "MissingPermissions": "Du hast nicht die ben\u00f6tigten Berechtigungen.",
+            "NotOwner": "Du bist nicht mein Besitzer."
+        }
+    }
+}

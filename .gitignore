@@ -1,0 +1,13 @@
+# File endings
+*.db
+*.log
+*.png
+*.mp3
+
+# Directories
+__pycache__
+sounds
+media/evidence
+
+# Files
+german-starmarine.json
