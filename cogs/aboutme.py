@@ -88,9 +88,9 @@ class ConfigAboutme(discord.ui.View):
                 self.remops = [row[0] for row in c.execute('SELECT info FROM aboutme WHERE user_id = ? AND toggle = 1',(user_id,)).fetchall()]
                 self.addops = [row[0] for row in c.execute('SELECT info FROM aboutme WHERE user_id = ? AND toggle = 0',(user_id,)).fetchall()]
                 self.addselect.options = [discord.SelectOption(label=info, value=info) for info in self.addops] if self.addops else self.addselect.options
-                self.addselect.disabled = True if not self.addops else False
+                self.addselect.disabled = not self.addops
                 self.removeselect.options = [discord.SelectOption(label=info, value=info) for info in self.remops] if self.remops else self.removeselect.options
-                self.removeselect.disabled = True if not self.remops else False
+                self.removeselect.disabled = not self.remops
                 self.addselect.placeholder = Localization(self.locale).addselect.placeholder
                 self.removeselect.placeholder = Localization(self.locale).removeselect.placeholder
         except:logger.error(traceback.format_exc())
