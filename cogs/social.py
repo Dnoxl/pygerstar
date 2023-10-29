@@ -71,10 +71,10 @@ class Localization:
         self.file = os.path.basename(__file__).replace('.py', '')
         try:
             localization = Path(sys.path[0], 'localization')
-            fn = lang + '_locale.json'
+            fn = f'{lang}_locale.json'
             if not os.path.exists(Path(localization, fn)):
                 lang = 'en-US'
-                fn = lang + '_locale.json'
+                fn = f'{lang}_locale.json'
             with open(Path(localization, fn), 'r', encoding='utf-8') as file:
                 self.function = json.load(file)[self.file]
         except:logger.error(traceback.format_exc())
@@ -150,38 +150,57 @@ class Database:
             return targets
         except:logger.error(traceback.format_exc())
 
-    def retr_bounty_authors(self, target:str)->list:
+    def retr_bounty_authors(self, target:str) -> list:
         try:
             with sqlite3.connect(self.db_path) as con:
                 c = con.cursor()
-                author_ids = [row for row in c.execute("SELECT author_id FROM bounties WHERE status = 0 AND target = ?",(target,)).fetchone()]
+                author_ids = list(
+                    c.execute(
+                        "SELECT author_id FROM bounties WHERE status = 0 AND target = ?",
+                        (target,),
+                    ).fetchone()
+                )
             return author_ids
         except:logger.error(traceback.format_exc())
 
-    def retr_all_pending_bounties(self)->list:
+    def retr_all_pending_bounties(self) -> list:
         '''Returns all pending bounties'''
         try:
             with sqlite3.connect(self.db_path) as con:
                 c = con.cursor()
-                bounty_ids = [row for row in c.execute("SELECT bounty_id FROM bounties WHERE status = 1").fetchone()]
+                bounty_ids = list(
+                    c.execute(
+                        "SELECT bounty_id FROM bounties WHERE status = 1"
+                    ).fetchone()
+                )
             return bounty_ids
         except:logger.error(traceback.format_exc())
 
-    def retr_pending_bounties(self, target:str)->list:
+    def retr_pending_bounties(self, target:str) -> list:
         '''Returns all pending bounties for a target'''
         try:
             with sqlite3.connect(self.db_path) as con:
                 c = con.cursor()
-                bounty_ids = [row for row in c.execute("SELECT bounty_id FROM bounties WHERE target = ? AND status = 1",(target,)).fetchone()]
+                bounty_ids = list(
+                    c.execute(
+                        "SELECT bounty_id FROM bounties WHERE target = ? AND status = 1",
+                        (target,),
+                    ).fetchone()
+                )
             return bounty_ids
         except:logger.error(traceback.format_exc())
 
-    def retr_open_bounties(self, target:str)->list:
+    def retr_open_bounties(self, target:str) -> list:
         '''Returns all open bounties for a target'''
         try:
             with sqlite3.connect(self.db_path) as con:
                 c = con.cursor()
-                bounty_ids = [row for row in c.execute("SELECT bounty_id FROM bounties WHERE target = ? AND status = 0",(target,)).fetchone()]
+                bounty_ids = list(
+                    c.execute(
+                        "SELECT bounty_id FROM bounties WHERE target = ? AND status = 0",
+                        (target,),
+                    ).fetchone()
+                )
             return bounty_ids
         except:logger.error(traceback.format_exc())
 
@@ -273,7 +292,7 @@ class Bounty(commands.Cog):
             embed = discord.Embed(title=f'Bounty for {target}', color=0x7d2222)
             if count > 0:
                 if count == 1:
-                    embed.set_footer(text=f'There is already one bounty for this target')
+                    embed.set_footer(text='There is already one bounty for this target')
                 else:
                     embed.set_footer(text=f'There are already {count} bounties for this target')
             embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.display_avatar.url)
@@ -290,16 +309,18 @@ class Bounty(commands.Cog):
                 await ctx.interaction.response.send_message(f'No bounty was found for {target}', ephemeral=True, delete_after=30)
                 return
             type = str(evidence.content_type).split('/',1)
-            if not 'video' in type and not 'image' in type:
-                await ctx.interaction.followup.send(f'Wrong media format.', ephemeral=True, delete_after=10)
+            if 'video' not in type and 'image' not in type:
+                await ctx.interaction.followup.send(
+                    'Wrong media format.', ephemeral=True, delete_after=10
+                )
                 return
             pending_id = str(ulid.new().timestamp())
             file_ext = os.path.splitext(evidence.filename)[-1]
-            file_path = Path(sys.path[0], 'media', 'evidence', f'{pending_id}{file_ext}')     
+            file_path = Path(sys.path[0], 'media', 'evidence', f'{pending_id}{file_ext}')
             await evidence.save(fp=file_path)
             self.db.set_pending(target=target, killer_id=ctx.author.id, pending_id=pending_id)
             await ctx.interaction.followup.send(file=await evidence.to_file(),  delete_after=10)
-            #embed = await self.db.create_confirm_embed(pending_id=pending_id, )
+                #embed = await self.db.create_confirm_embed(pending_id=pending_id, )
         except:logger.error(traceback.format_exc())
 
 def setup(bot):

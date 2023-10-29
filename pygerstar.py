@@ -214,7 +214,7 @@ async def status_msg():
     embed.add_field(name='Performance Information:', value=text)
     embed.set_footer(text=f'Uptime: {str(datetime.timedelta(seconds=int(time.perf_counter() - bot_starttime)))}')
     self_msgs = [message for message in messages if message.author == bot.user]
-    if len(self_msgs) == 0:
+    if not self_msgs:
         msg = await chan.send(embed=embed,view=MyView())
     try:
         await msg.edit(embed=embed,view=MyView())

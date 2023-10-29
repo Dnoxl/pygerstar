@@ -37,10 +37,10 @@ class ClanBank(commands.Cog):
     
     @slash_command(name='showign')
     async def send_ign(self, ctx, user: Option(discord.Member, required = False, default=None)):
-        if user == None:
+        if user is None:
             user = ctx.author
         ign = await self.load_ign(user.id)
-        if not ign == None:
+        if ign is not None:
             await ctx.respond(f'Der Ingame Name von {user.display_name} lautet: {ign}.',epehemeral=True)
         else:
             await ctx.respond(f'Der Nutzer {user.display_name} hat keinen Ingame Namen verbunden.',ephemeral=True)
@@ -65,8 +65,11 @@ class ClanBank(commands.Cog):
     async def pay(self, ctx, amount: Option(int, description='Der Betrag der Einzahlung')):  
         ign = await self.load_ign(ctx.author.id)
         date = datetime.now(timezone('Europe/Berlin')).strftime('%d.%m.%y')
-        if ign == None:
-            await ctx.respond(f'Du hast keinen Ingame Namen verbunden. Bitte nutze /ignlink und versuche es erneut.',ephemeral=True)
+        if ign is None:
+            await ctx.respond(
+                'Du hast keinen Ingame Namen verbunden. Bitte nutze /ignlink und versuche es erneut.',
+                ephemeral=True,
+            )
             return
         self.add_deposit(discordid=ctx.author.id, deposit=amount, date=date)
         await ctx.respond(f'Erfolgreich {amount} aUEC eingezahlt von {ign}. ({date})')
@@ -102,21 +105,19 @@ class ClanBank(commands.Cog):
                 dates.append(d[1])
             ign = await self.load_ign(discord_id=int(did))
             row = 3
-            col1 = i*2 if not i == 0 else i*2+1
-            col2 = i*2+1 if not i == 0 else i*2+2
+            col1 = i*2 if i != 0 else i*2+1
+            col2 = i*2+1 if i != 0 else i*2+2
             cols.extend([col1, col2])
             rows.extend([row, row])
-            entries.append(ign)
-            entries.append('aUEC')
+            entries.extend((ign, 'aUEC'))
             for j, deposit in enumerate(deposits):
                 row += 1
                 cols.extend([col1, col2])
                 rows.extend([row, row])
-                entries.append(dates[j])
-                entries.append(deposit)            
+                entries.extend((dates[j], deposit))
         spreadsheet_key = self.selectfrom_settings(setting='spreadsheet_key')
         wks = self.gc.open_by_key(spreadsheet_key)
-        sh = wks.sheet1       
+        sh = wks.sheet1
         sh.clear()
         for e, col in enumerate(cols):
             sh.update_cell(col=col, row=rows[e], value=entries[e])     
