@@ -70,17 +70,20 @@ class GeneralUtility(commands.Cog):
             loc = Localization(file_name, ctx.interaction.locale)
             await ctx.defer()
             msg_count = 0
+            messages = []
             async for msg in ctx.channel.history(limit=amount):
                 msg_count += 1
+                messages.append(msg)
                 if msg_count == amount:
                     break
             if msg_count < amount:
                 amount = msg_count
-            await ctx.channel.purge(limit=amount)
+            for msg in messages:
+                await msg.delete()
             if amount == 1:
-                await ctx.followup.send(loc.clear_msgs.deleted_message, ephemeral=True, delete_after=10)
+                await ctx.send(loc.clear_msgs.deleted_message, delete_after=10)
             else:
-                await ctx.followup.send(loc.clear_msgs.deleted_messages.format(amount), ephemeral=True, delete_after=10)
+                await ctx.send(loc.clear_msgs.deleted_messages.format(amount), delete_after=10)
         except:
             logger.error(traceback.format_exc())
         

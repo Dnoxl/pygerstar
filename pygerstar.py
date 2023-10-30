@@ -368,7 +368,7 @@ def run():
 
 global bot_starttime, bot_extensions
 bot_starttime = time.perf_counter()
-bot_extensions = ('cogs.generalutility', 'cogs.aboutme', 'cogs.clanbank', 'cogs.bounty', 'cogs.rsiinfo')
+bot_extensions = ('cogs.generalutility', 'cogs.aboutme', 'cogs.bounty', 'cogs.rsiinfo')
 
 #Declare all necessary Variables before this
 run()

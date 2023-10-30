@@ -26,8 +26,8 @@
             "amount_desc": "Die Menge an zu l\u00f6schenden Nachrichten",
             "amount_name": "anzahl",
             "command_desc": "L\u00f6scht x Nachrichten aus dem Channel",
-            "deleted_message": "L\u00f6sche eine Nachricht.",
-            "deleted_messages": "L\u00f6sche {} Nachrichten."
+            "deleted_message": "Eine Nachricht gelöscht.",
+            "deleted_messages": "{} Nachrichten gelöscht."
         },
         "cog_command_error": {
             "MissingPermissions": "Du hast nicht die ben\u00f6tigten Berechtigungen.",

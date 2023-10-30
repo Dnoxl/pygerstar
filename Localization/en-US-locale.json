@@ -26,8 +26,8 @@
             "amount_desc": "The amount of messages to clear",
             "amount_name": "amount",
             "command_desc": "Deletes x messages from the channel",
-            "deleted_message": "Deleting one message.",
-            "deleted_messages": "Deleting {} messages."
+            "deleted_message": "Deleted one message.",
+            "deleted_messages": "Deleted {} messages."
         },
         "cog_command_error": {
             "MissingPermissions": "You do not have the necessary permissions.",
