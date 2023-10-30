@@ -1,10 +1,21 @@
+"""
+TODO: Implement the confirmation view for a bounty kill
+"""
+
+"""
+DOC:
+BOUNTY STATES:
+    0 - Open
+    1 - Pending
+    2 - Closed
+"""
+
 import os
 import sys
 import discord
 import sqlite3
 import traceback
 import json
-import inspect
 import time
 import datetime
 import logging
@@ -20,6 +31,7 @@ owners = [459747395027075095]
 logger = logging.getLogger()
 
 def is_authorized(**perms):
+    '''Guild only'''
     original = commands.has_permissions(**perms).predicate
     async def extended_check(ctx):
         if ctx.guild is None:
@@ -28,6 +40,7 @@ def is_authorized(**perms):
     return commands.check(extended_check)
 
 class Localization:
+    '''The Localization class is used to load and assign localization strings from a JSON file based on a given locale.\nen-US as Fallback locale.'''
     def __init__(self, locale):
         """
         The function initializes an object with a given locale, loads a JSON file corresponding to that
@@ -63,21 +76,6 @@ class Localization:
                 for k, v in values.items():
                     setattr(self, k, v)
             except:logger.error(traceback.format_exc())
-
-class Localization:
-    '''Loads a lang_locale.json and retrieves the entry for the current file via the .py's file name'''
-    def __init__(self, lang:str):
-        self.function = None
-        self.file = os.path.basename(__file__).replace('.py', '')
-        try:
-            localization = Path(sys.path[0], 'localization')
-            fn = lang + '_locale.json'
-            if not os.path.exists(Path(localization, fn)):
-                lang = 'en-US'
-                fn = lang + '_locale.json'
-            with open(Path(localization, fn), 'r', encoding='utf-8') as file:
-                self.function = json.load(file)[self.file]
-        except:logger.error(traceback.format_exc())
 
 class KillConfirmationView(discord.ui.View):
     def __init__(self):
@@ -135,6 +133,12 @@ class Database:
 
 #Data Retrieval
     def retr_bounty_count(self, target:str)->int:
+        """
+        The function retrieves the count of bounties with a specific target and status from a SQLite
+        database.
+        :return: an integer, which represents the count of bounties with a specific target and status
+        from a SQLite database.
+        """
         try:
             with sqlite3.connect(self.db_path) as con:
                 c = con.cursor()
@@ -143,6 +147,11 @@ class Database:
         except:logger.error(traceback.format_exc())
 
     def retr_target_list(self)->list:
+        """
+        The function retrieves a list of distinct targets from a SQLite database where the status is 0.
+        :return: a list of distinct targets from the "bounties" table in the SQLite database where the
+        status is 0.
+        """
         try:
             with sqlite3.connect(self.db_path) as con:
                 c = con.cursor()
@@ -150,7 +159,13 @@ class Database:
             return targets
         except:logger.error(traceback.format_exc())
 
+    # Returns Author IDs of a target
     def retr_bounty_authors(self, target:str)->list:
+        """
+        The function retrieves the author IDs of bounties with a specific target and status from a
+        SQLite database.
+        :return: a list of author IDs.
+        """
         try:
             with sqlite3.connect(self.db_path) as con:
                 c = con.cursor()

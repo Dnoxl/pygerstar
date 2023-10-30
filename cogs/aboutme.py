@@ -182,7 +182,7 @@ class AboutModal(discord.ui.Modal):
                     values[child.label] = child.value
             embed = discord.Embed()
             print('hi')
-            embed.set_author(name=Localization(interaction.locale).callback.embed_author.format(interaction.user.display_name), icon_url=interaction.user.display_avataravatar)
+            embed.set_author(name=Localization(interaction.locale).callback.embed_author.format(interaction.user.display_name), icon_url=interaction.user.display_avatar)
             with sqlite3.connect(self.db_path) as con:
                 c = con.cursor()
                 for value in values:
@@ -372,4 +372,5 @@ def age_from_string(date_string):
     except:logger.error(traceback.format_exc())
 
 def setup(bot):
+    logger.info(f"Cog {os.path.basename(__file__).replace('.py', '')} loaded")
     bot.add_cog(Social(bot))

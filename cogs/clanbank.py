@@ -3,12 +3,18 @@ import sys
 import discord
 import sqlite3
 import gspread
+import logging
 from pytz import timezone
 from datetime import datetime
 from discord.ext import commands
 from discord.commands import slash_command, user_command, Option
 from discord.ext.commands import MissingPermissions, NotOwner
 from pathlib import Path
+
+locales = ('en-US', 'de')
+owners = [459747395027075095]
+
+logger = logging.getLogger()
 
 class ClanBank(commands.Cog):
     def __init__(self, bot):
@@ -178,5 +184,6 @@ def curdir(filename: str):
     return path
 
 def setup(bot):
+    logger.info(f"Cog {os.path.basename(__file__).replace('.py', '')} loaded")
     bot.add_cog(ClanBank(bot))
     

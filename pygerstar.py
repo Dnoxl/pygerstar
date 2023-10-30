@@ -110,9 +110,9 @@ class Settings:
         """
         with sqlite3.connect(self.db_path) as con:
             c = con.cursor()
-            settings = ['bottoken', 'statuschannel_id', 'bot_status']
-            setup_vars = ['bottoken', 'statuschannel_id', 'bot_status']
-            default_settings = ['Invalid', 'Invalid', 'Custom Bot status']
+            settings = ['bottoken', 'statuschannel_id', 'bot_status', 'spreadsheet_key']
+            setup_vars = ['bottoken', 'statuschannel_id', 'bot_status', 'spreadsheet_key']
+            default_settings = ['Invalid', 'Invalid', 'Custom Bot status', 'Invalid']
             c.execute('CREATE TABLE IF NOT EXISTS settings(setting TEXT, value TEXT)')
             con.commit()
             for s in settings:
@@ -190,6 +190,15 @@ class MyView(discord.ui.View):
             await interaction.response.send_message('Syncing Commands', ephemeral=True, delete_after=10)
             logger.info('Syncing Commands')
             await bot.sync_commands()
+        except:logger.error(traceback.format_exc())
+    @discord.ui.button(label="Reload Cogs", row=1)
+    @commands.is_owner()
+    async def button_callbackreload(self, button: discord.Button, interaction: discord.Interaction):
+        try:
+            await interaction.response.send_message('Reloading Cogs', ephemeral=True, delete_after=10)
+            logger.info('Reloading Cogs')
+            for ext in bot_extensions:
+                bot.reload_extension(ext)
         except:logger.error(traceback.format_exc())
 
 @tasks.loop(seconds=5)
@@ -359,7 +368,7 @@ def run():
 
 global bot_starttime, bot_extensions
 bot_starttime = time.perf_counter()
-bot_extensions = ('cogs.generalutility', 'cogs.aboutme', 'cogs.clanbank')#, 'cogs.social')
+bot_extensions = ('cogs.generalutility', 'cogs.aboutme', 'cogs.clanbank', 'cogs.bounty', 'cogs.rsiinfo')
 
 #Declare all necessary Variables before this
 run()

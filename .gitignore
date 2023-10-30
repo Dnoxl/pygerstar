@@ -3,11 +3,13 @@
 *.log
 *.png
 *.mp3
+*.html
 
 # Directories
 __pycache__
 sounds
 media/evidence
+.vscode
 
 # Files
 german-starmarine.json
