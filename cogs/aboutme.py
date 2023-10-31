@@ -181,7 +181,6 @@ class AboutModal(discord.ui.Modal):
                         child.label = child.label.replace('(dd.mm.yyyy)', '')
                     values[child.label] = child.value
             embed = discord.Embed()
-            print('hi')
             embed.set_author(name=Localization(interaction.locale).callback.embed_author.format(interaction.user.display_name), icon_url=interaction.user.display_avatar)
             with sqlite3.connect(self.db_path) as con:
                 c = con.cursor()

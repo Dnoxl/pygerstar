@@ -69,17 +69,18 @@ class GeneralUtility(commands.Cog):
         try:
             loc = Localization(file_name, ctx.interaction.locale)
             await ctx.defer()
-            msg_count = 0
+            amount+=1
             messages = []
             async for msg in ctx.channel.history(limit=amount):
-                msg_count += 1
                 messages.append(msg)
-                if msg_count == amount:
+                if len(messages) == amount:
                     break
-            if msg_count < amount:
-                amount = msg_count
+            amount = len(messages)-1
             for msg in messages:
-                await msg.delete()
+                try:
+                    await msg.delete()
+                except:
+                    continue
             if amount == 1:
                 await ctx.send(loc.clear_msgs.deleted_message, delete_after=10)
             else:

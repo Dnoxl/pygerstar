@@ -13,6 +13,8 @@ import traceback
 import logging
 import json
 import requests 
+import functools
+import gc
 from CogBase import Localization
 from RSIScraper import RSIScraper
 from bs4 import BeautifulSoup
@@ -58,6 +60,14 @@ class BountyData:
 class BountySystem(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
+        #self.clear_lru_cache.start()
+
+    @tasks.loop(hours=24)
+    async def clear_lru_cache(self):
+        objects = [i for i in gc.get_objects()  
+                if isinstance(i, functools._lru_cache_wrapper)] 
+        for object in objects: 
+            object.cache_clear()
 
 def setup(bot):
     logger.info(f"Cog {os.path.basename(__file__).replace('.py', '')} loaded")

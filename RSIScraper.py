@@ -28,32 +28,39 @@ logger = logging.getLogger()
 class RSIScraper:
     class Organization:
         def __init__(self, organization_tag):
-            self.organization_tag = organization_tag
-            self.URL = f'https://robertsspaceindustries.com/orgs/{self.organization_tag}'
+            self.__organization_tag = organization_tag
+            self.URL = f'https://robertsspaceindustries.com/orgs/{self.__organization_tag}'
             self.__website = requests.get(self.URL)
             self.exists = True
             self.__webSoup = BeautifulSoup(self.__website.content, 'html.parser')
             if self.__website.status_code == 404:
                 self.exists = False
-                logger.error(f'Organization {self.organization_tag} not found')
-        #Attributes
-            self.members = self.Members(self.organization_tag)
-            self.name, self.tag = self.fetch_organization_nameandtag()
+                logger.error(f'Organization {self.__organization_tag} not found')
+        #Attributes      
+            self.members = self.Members(self.__organization_tag, self.exists)
+            if self.exists:
+                self.name, self.tag = self.fetch_organization_nameandtag()
+            else:
+                self.name, self.tag = 'Organization not found'
 
         def fetch_organization_nameandtag(self):
             org_str = self.__webSoup.find('div', {'class': 'page-wrapper'}).find('div', {'class': 'content-wrapper'}).find('h1').text.split('/')
             orgname = org_str[0].rstrip(' ')
-            orgtag = org_str[1].strip(' ')
+            orgtag = org_str[1].lstrip(' ')
             return orgname, orgtag
 
         class Members:
-            def __init__(self, organization_tag):
-                self.organization_tag = organization_tag
-                self.URL = f'https://robertsspaceindustries.com/orgs/{self.organization_tag}/members'
+            def __init__(self, organization_tag:str, parent_exists:bool):
+                self.__organization_tag = organization_tag
+                self.URL = f'https://robertsspaceindustries.com/orgs/{self.__organization_tag}/members'
                 self.__website = requests.get(self.URL)
                 self.__webSoup = BeautifulSoup(self.__website.content, 'html.parser')
-                self.list = self.fetch_member_list()
-                self.amount = len(self.list)
+                if parent_exists:
+                    self.list = self.fetch_member_list()
+                    self.amount = len(self.list)
+                else:
+                    self.list = []
+                    self.amount = -1
 
             def fetch_member_list(self):
                 try:
@@ -69,50 +76,88 @@ class RSIScraper:
 
     class User:
         def __init__(self, username):
-            self.user_name = username
-            self.URL = f'https://robertsspaceindustries.com/citizens/{self.user_name}'
+            self.name = username
+            self.URL = f'https://robertsspaceindustries.com/citizens/{self.name}'
             self.__website = requests.get(self.URL)    
             self.__webSoup = BeautifulSoup(self.__website.content, 'html.parser')
             self.exists = True
             if self.__website.status_code == 404:
                 self.exists = False
-                logger.error(f'User {self.user_name} not found')
+                logger.error(f'User {self.name} not found')
         #Attributes
-            self.organizations = self.Organizations(self.__webSoup)
-            self.accountage = self.AccountAge(self.__webSoup)
-            self.media = self.Media(self.__webSoup)
+            self.organizations = self.Organizations(self.__webSoup, self.exists)
+            self.accountage = self.AccountAge(self.__webSoup, self.exists)
+            self.media = self.Media(self.__webSoup, self.exists)
+            if not self.exists:
+                self.name = 'User not found'
 
         class Organizations:
-            def __init__(self, __webSoup):
+            def __init__(self, __webSoup:BeautifulSoup, parent_exists:bool):
                 self.__webSoup = __webSoup
-                self.has_organizations = True
-                self.main = self.Main(self.__webSoup)
+                self.__main_tag = 'None'
+                self.__has_main =  False
+                self.__main_rank = 'None'
+                if parent_exists:
+                    self.__main_tag, self.__has_main = self.fetch_main_tag()
+                    if self.__has_main:
+                        self.main = RSIScraper.Organization(self.__main_tag)
+                        self.__main_rank = self.fetch_main_rank()
+                else:
+                    self.main = RSIScraper.Organization(self.__main_tag)
+                self.main.rank = self.__main_rank
 
-            class Main:
-                def __init__(self, __webSoup):
-                    self.__webSoup = __webSoup
-                    self.name = self.fetch_name()
-
-                def fetch_name(self) -> str:
-                    """
-                    The function fetch_main_organization attempts to find and return the name of the main
-                    organization of a user.
-                    :return: the name of the main organization.
-                    """
+            def fetch_main_rank(self):
+                try:
+                    right_col = self.__webSoup.find('div', {"class": lambda x: x and x.startswith('visibility-')})
                     try:
-                        org_info = self.__webSoup.find('div', {"class": lambda x: x and x.startswith('visibility-')})
-                        try:
-                            org_name = org_info.find('a', {"class": "value"}).text.strip()
-                        except:
-                            org_name = org_info.find('div', {'class': 'empty'}).text.strip()
-                        return org_name 
-                    except:logger.error(traceback.format_exc())
+                        entries = right_col.find('div', {'class': 'info'}).find_all('p', {'class': 'entry'})
+                        for entry in entries:
+                            try:
+                                label = entry.find('span', {'class': 'label'})
+                                if label.text.startswith('Organization rank'):
+                                    org_rank = entry.find('strong', {'class': 'value'}).text.strip()
+                                    break
+                            except:
+                                continue
+                    except:
+                        org_rank = right_col.find('div', {'class': 'empty'}).text.strip()
+                except:
+                    logger.error(traceback.format_exc())
+                return org_rank
+
+            def fetch_main_tag(self):
+                try:
+                    right_col = self.__webSoup.find('div', {"class": lambda x: x and x.startswith('visibility-')})
+                    try:
+                        entries = right_col.find('div', {'class': 'info'}).find_all('p', {'class': 'entry'})
+                        for entry in entries:
+                            try:
+                                label = entry.find('span', {'class': 'label'})
+                                if label.text.startswith('Spectrum Identification'):
+                                    org_tag = entry.find('strong', {'class': 'value'}).text.strip()
+                                    has_main = True
+                                    break
+                            except:
+                                continue
+                    except:
+                        org_tag = right_col.find('div', {'class': 'empty'}).text.strip()
+                        org_tag = 'None'
+                        has_main = False
+                except:
+                    logger.error(traceback.format_exc())
+                    org_tag = 'None'
+                    has_main = False
+                return org_tag, has_main
 
         class AccountAge:
-            def __init__(self, __webSoup):
+            def __init__(self, __webSoup, parent_exists):
                 self.__webSoup = __webSoup
-                self.enlistment_date = self.fetch_enlistment_date()
-                self.relativedelta, self.str, self.dict = self.calc()
+                if parent_exists:
+                    self.enlistment_date = self.fetch_enlistment_date()
+                    self.relativedelta, self.str, self.dict = self.calc()
+                else:
+                    self.enlistment_date = self.fetch_enlistment_date()
+                    self.relativedelta, self.str, self.dict = relativedelta(), 'None', {}
 
             def fetch_enlistment_date(self) -> str:
                 """
@@ -141,7 +186,7 @@ class RSIScraper:
                 return account_age, age_str, age_dict
 
         class Media:
-            def __init__(self, __webSoup):
+            def __init__(self, __webSoup, parent_exists):
                 self.__webSoup = __webSoup
                 self.profile_picture = self.fetch_profile_picture()
 
@@ -160,6 +205,5 @@ class RSIScraper:
                             return img_url
                 except:logger.error(traceback.format_exc())
 
-Org = RSIScraper.Organization('GERMANSTER')
-
-#Org.name
+#Org = RSIScraper.Organization('GERMANSTER')
+#User = RSIScraper.User('Dnoxl')

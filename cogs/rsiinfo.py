@@ -37,13 +37,25 @@ def is_authorized(**perms):
         return ctx.author.id in owners or await original(ctx)
     return commands.check(extended_check)
 
+'''
+class OrgInfoView(discord.ui.View):
+    def __init__(self, website_url):
+        self.website_url = website_url
+        self.
+
+    discord.ui.Button(label='Website', style=discord.Colour(0x0a456d))
+    #async def website_callback(self, button:discord.Button, interaction:discord.Interaction):
+        #try:
+        #except:logger.error(traceback.format_exc())
+'''
+        
 class RSIInfo(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.db_path = Path(sys.path[0], 'bot.db')
         self.clear_lru_cache.start()
 
-    @tasks.loop(hours=1)
+    @tasks.loop(hours=6)
     async def clear_lru_cache(self):
         objects = [i for i in gc.get_objects()  
                 if isinstance(i, functools._lru_cache_wrapper)] 
@@ -68,12 +80,35 @@ class RSIInfo(commands.Cog):
         user = RSIScraper.User(ign)
         embed = discord.Embed()
         if user.exists:
-            embed.set_author(name=user.user_name, icon_url=user.media.profile_picture)
-            embed.add_field(name='Account Age', value=f'Enlisted: {user.accountage.enlistment_date}\nAge: {user.accountage.str}')
-            embed.add_field(name='Main Organization', value=f'Name: {user.organizations.main.name}')
+            embed.set_author(name=user.name, icon_url=user.media.profile_picture)
+            embed.add_field(name='Account Age', value=f'**Enlisted**: {user.accountage.enlistment_date}\n**Age**: {user.accountage.str}')
+            embed.add_field(name='Main Organization', value=f'**Name**: {user.organizations.main.name}\n**SID**: *[{user.organizations.main.tag}]({user.organizations.main.URL})*\n'
+                            f'**Membercount**: {user.organizations.main.members.amount}\n'
+                            f'**Rank**: {user.organizations.main.rank}')
         else:
-            embed.add_field(name='Error', value=f'User "{ign}" not found')
+            embed.add_field(name='ERROR', value=f'User "{ign}" not found')
         return embed
+    
+    @lru_cache(maxsize=32)
+    def create_orginfo_embeds(self, org_tag) -> list:
+        try:
+            org = RSIScraper.Organization(org_tag)
+            if org.exists:
+                embeds = []
+                embed = discord.Embed(title=org.name)
+                members = discord.Embed(title=f'Members of {org.name}')
+                memberstr = ',\n'.join(sorted(org.members.list))
+                infostr = f'{len(org.members.list)} members\n'
+                embed.add_field(name='Information', value=infostr)
+                embed.set_footer(text=org.tag)
+                embeds.append(embed)
+                members.add_field(name=f'Members', value=memberstr)
+                embeds.append(members)
+            else:
+                embed = discord.Embed()
+                embed.add_field(name='ERROR', value=f'Organization "{org_tag}" not found.')
+            return embeds
+        except:logger.error(traceback.format_exc())
 
     @slash_command()
     async def user_info(self, ctx:discord.ApplicationContext, ingamename:str):
@@ -90,11 +125,11 @@ class RSIInfo(commands.Cog):
                 embed = self.create_userinfo_embed(ign)
             else:
                 embed = discord.Embed()
-                embed.add_field(name='Error', value='User has not linked his account.')
+                embed.add_field(name='ERROR', value='User has not linked his account.')
             await ctx.respond(embed=embed, delete_after=60)
         except:logger.error(traceback.format_exc())
 
-    @slash_command(name='linkaccount', description='Verbindet deine Discord ID mit deinem Ingame Namen')
+    @slash_command(name='linkingamename', description='Verbindet deine Discord ID mit deinem Ingame Namen')
     async def link_user_account(self, ctx, ingamename: str):
         with sqlite3.connect(self.db_path) as con:
             c = con.cursor()
@@ -105,23 +140,8 @@ class RSIInfo(commands.Cog):
 
     @slash_command()
     async def org_info(self, ctx:discord.ApplicationContext, org_tag: str):
-        org = RSIScraper.Organization(org_tag)
-        if org.exists:
-            embeds = []
-            embed = discord.Embed(title=org.name)
-            members = discord.Embed(title=f'Members of {org.name}')
-            memberstr = ',\n'.join(sorted(org.members.list))
-            infostr = f'{len(org.members.list)} members\n'
-            embed.add_field(name='Information', value=infostr)
-            embed.set_footer(text=org.tag)
-            embeds.append(embed)
-            members.add_field(name=f'Members', value=memberstr)
-            embeds.append(members)
-            await ctx.respond(embeds=embeds, delete_after=10)
-        else:
-            embed = discord.Embed()
-            embed.add_field(name='ERROR', value=f'Organization "{org_tag}" not found.')
-            await ctx.respond(embed=embed, delete_after=10)
+        embeds = self.create_orginfo_embeds(org_tag)
+        await ctx.respond(embeds=embeds, delete_after=60)
 
 def setup(bot):
     logger.info(f"Cog {os.path.basename(__file__).replace('.py', '')} loaded")
