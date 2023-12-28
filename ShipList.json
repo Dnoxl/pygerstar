@@ -1,0 +1,1033 @@
+{
+    "100i - Starter/Touring": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/origin-100/100i",
+        "status": "Flight Ready",
+        "price": "$50.00"
+    },
+    "125a - Starter/Light Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/origin-100/125a",
+        "status": "Flight Ready",
+        "price": "$60.00"
+    },
+    "135c - Starter/Light Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/origin-100/135c",
+        "status": "Flight Ready",
+        "price": "$65.00"
+    },
+    "300i - Luxury Touring": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/origin-300/300i",
+        "status": "Flight Ready\n        Rework complete (3.5.0)",
+        "price": "$60.00"
+    },
+    "315p - Pathfinder": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/origin-300/315p",
+        "status": "Flight Ready",
+        "price": "$65.00"
+    },
+    "325a - Interdiction / Light Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/origin-300/325a",
+        "status": "Flight Ready",
+        "price": "$70.00"
+    },
+    "350r - Racing": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/origin-300/350r",
+        "status": "Flight Ready",
+        "price": "$125.00"
+    },
+    "400i - Touring": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/400i/400i",
+        "status": "Flight Ready",
+        "price": "$250.00"
+    },
+    "600i Explorer - Expedition": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/600i/600i-Explorer",
+        "status": "Flight Ready",
+        "price": "$475.00"
+    },
+    "600i Touring - Touring": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/600i/600i-Touring",
+        "status": "Flight Ready",
+        "price": "$435.00"
+    },
+    "85X - Touring": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/85x/85X",
+        "status": "Flight Ready",
+        "price": "$50.00"
+    },
+    "890 Jump - Luxury Touring": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/890-jump/890-Jump",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "A1 Spirit  - Bomber": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/spirit/A1-Spirit",
+        "status": "Flight Ready",
+        "price": "$175.00"
+    },
+    "A2 Hercules - Heavy Bomber / Military Transport": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/crusader-starlifter/A2-Hercules",
+        "status": "Flight Ready",
+        "price": "$750.00"
+    },
+    "Anvil Ballista Dunestalker - Military": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/anvil-ballista/Anvil-Ballista-Dunestalker",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Anvil Ballista Snowblind - Military": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/anvil-ballista/Anvil-Ballista-Snowblind",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Apollo Medivac - Medical": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/rsi-apollo/Apollo-Medivac",
+        "status": "In Concept",
+        "price": "$275.00"
+    },
+    "Apollo Triage - Medical": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/rsi-apollo/Apollo-Triage",
+        "status": "In Concept",
+        "price": "$250.00"
+    },
+    "Ares Inferno  - Heavy Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/crusader-ares/Ares-Inferno",
+        "status": "Flight Ready",
+        "price": "$250.00"
+    },
+    "Ares Ion - Heavy Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/crusader-ares/Ares-Ion",
+        "status": "Flight Ready",
+        "price": "$250.00"
+    },
+    "Argo Mole Carbon Edition - Prospecting and Mining": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/argo-mole/Argo-Mole-Carbon-Edition",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Argo Mole Talus Edition - Prospecting and Mining": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/argo-mole/Argo-Mole-Talus-Edition",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Arrastra - Mining and Refining": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/arrastra/Arrastra",
+        "status": "In Concept",
+        "price": "$525.00"
+    },
+    "Arrow - Light Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/anvil-arrow/Arrow",
+        "status": "Flight Ready",
+        "price": "$75.00"
+    },
+    "Aurora CL - Light Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/rsi-aurora/Aurora-CL",
+        "status": "Flight Ready",
+        "price": "$45.00"
+    },
+    "Aurora ES - Starter / Pathfinder": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/rsi-aurora/Aurora-ES",
+        "status": "Flight Ready",
+        "price": "$20.00"
+    },
+    "Aurora LN - Light Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/rsi-aurora/Aurora-LN",
+        "status": "Flight Ready",
+        "price": "$40.00"
+    },
+    "Aurora LX - Pathfinder": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/rsi-aurora/Aurora-LX",
+        "status": "Flight Ready",
+        "price": "$35.00"
+    },
+    "Aurora MR - Light Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/rsi-aurora/Aurora-MR",
+        "status": "Flight Ready",
+        "price": "$30.00"
+    },
+    "Avenger Stalker - Interdiction": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Stalker",
+        "status": "Flight Ready",
+        "price": "$60.00"
+    },
+    "Avenger Titan - Light Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Titan",
+        "status": "Flight Ready",
+        "price": "$60.00"
+    },
+    "Avenger Titan Renegade - Light Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Titan-Renegade",
+        "status": "Flight Ready",
+        "price": "$75.00"
+    },
+    "Avenger Warlock - Interdiction": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/aegis-avenger/Avenger-Warlock",
+        "status": "Flight Ready",
+        "price": "$85.00"
+    },
+    "Ballista  - Military": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/anvil-ballista/Ballista",
+        "status": "Flight Ready",
+        "price": "$140.00"
+    },
+    "Blade - Light Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/vanduul-blade/Blade",
+        "status": "Flight Ready",
+        "price": "$275.00"
+    },
+    "Buccaneer - Interdiction": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/drake-buccaneer/Buccaneer",
+        "status": "Flight Ready",
+        "price": "$110.00"
+    },
+    "C1 Spirit - Medium Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/spirit/C1-Spirit",
+        "status": "Flight Ready",
+        "price": "$110.00"
+    },
+    "C2 Hercules - Transport": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/crusader-starlifter/C2-Hercules",
+        "status": "Flight Ready",
+        "price": "$400.00"
+    },
+    "C8 Pisces - Exploration": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/anvil-pisces/C8-Pisces",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "C8R Pisces - Medical": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/anvil-pisces/C8R-Pisces",
+        "status": "Flight Ready",
+        "price": "$65.00"
+    },
+    "C8X Pisces Expedition  - Expedition": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/anvil-pisces/C8X-Pisces-Expedition",
+        "status": "Flight Ready",
+        "price": "$45.00"
+    },
+    "Carrack - Expedition": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/carrack/Carrack",
+        "status": "Flight Ready",
+        "price": "$600.00"
+    },
+    "Carrack Expedition - Expedition": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/carrack/Carrack-Expedition",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Carrack Expedition w/C8X - Expedition": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/carrack/Carrack-Expedition-W-C8X",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Carrack w/C8X - Expedition": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/carrack/Carrack-W-C8X",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Caterpillar - Heavy Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/drake-caterpillar/Caterpillar",
+        "status": "Flight Ready\n        Hull concept complete",
+        "price": "$330.00"
+    },
+    "Caterpillar Best In Show Edition - Heavy Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/drake-caterpillar/Caterpillar-Best-In-Show-Edition",
+        "status": "Flight Ready\n        Hull concept complete",
+        "price": "Not available"
+    },
+    "Caterpillar Pirate Edition - Heavy Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/drake-caterpillar/Caterpillar-Pirate-Edition",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Centurion - Combat": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/centurion/Centurion",
+        "status": "Flight Ready",
+        "price": "$110.00"
+    },
+    "Constellation Andromeda - Medium Freight / Gun Ship": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/rsi-constellation/Constellation-Andromeda",
+        "status": "Flight Ready\n        Damage States being mapped",
+        "price": "$240.00"
+    },
+    "Constellation Aquila - Expedition": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/rsi-constellation/Constellation-Aquila",
+        "status": "Flight Ready",
+        "price": "$315.00"
+    },
+    "Constellation Phoenix - Luxury Touring": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/rsi-constellation/Constellation-Phoenix",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Constellation Phoenix Emerald - Touring": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/rsi-constellation/Constellation-Phoenix-Emerald",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Constellation Taurus - Medium Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/rsi-constellation/Constellation-Taurus",
+        "status": "Flight Ready",
+        "price": "$200.00"
+    },
+    "Corsair - Expedition": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/drake-corsair/Corsair",
+        "status": "Flight Ready",
+        "price": "$250.00"
+    },
+    "Crucible - Heavy Repair": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/crucible/Crucible",
+        "status": "In Concept\n        Concept complete.",
+        "price": "$350.00"
+    },
+    "Cutlass Black - Medium Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Black",
+        "status": "Flight Ready\n        Update pass in progress.",
+        "price": "$110.00"
+    },
+    "Cutlass Black Best In Show Edition - Medium Fighter / Medium Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Black-Best-In-Show-Edition",
+        "status": "Flight Ready\n        Update pass in progress.",
+        "price": "Not available"
+    },
+    "Cutlass Blue - Interdiction": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Blue",
+        "status": "Flight Ready",
+        "price": "$175.00"
+    },
+    "Cutlass Red - Medical": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Red",
+        "status": "Flight Ready",
+        "price": "$135.00"
+    },
+    "Cutlass Steel - Dropship": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/drake-cutlass/Cutlass-Steel",
+        "status": "Flight Ready",
+        "price": "$235.00"
+    },
+    "Cutter - Starter/Light Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/cutter/Cutter",
+        "status": "Flight Ready",
+        "price": "$45.00"
+    },
+    "Cutter Scout - Reconnaissance and Intelligence": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/cutter/Cutter-Scout",
+        "status": "Flight Ready",
+        "price": "$45.00"
+    },
+    "Cyclone - Exploration / Recon": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/cyclone/Cyclone",
+        "status": "Flight Ready",
+        "price": "$55.00"
+    },
+    "Cyclone AA - Anti-aircraft": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/cyclone/Cyclone-AA",
+        "status": "Flight Ready",
+        "price": "$80.00"
+    },
+    "Cyclone MT - Assault": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/cyclone/Cyclone-MT",
+        "status": "Flight Ready",
+        "price": "$75.00"
+    },
+    "Cyclone RC - Racing": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/cyclone/Cyclone-RC",
+        "status": "Flight Ready",
+        "price": "$65.00"
+    },
+    "Cyclone RN - Recon": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/cyclone/Cyclone-RN",
+        "status": "Flight Ready",
+        "price": "$65.00"
+    },
+    "Cyclone TR - Combat": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/cyclone/Cyclone-TR",
+        "status": "Flight Ready",
+        "price": "$65.00"
+    },
+    "Defender - Light Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/defender/Defender",
+        "status": "Flight Ready",
+        "price": "$220.00"
+    },
+    "Dragonfly Black - Racing": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/drake-dragonfly/Dragonfly-Black",
+        "status": "Flight Ready\n        Available in Alpha 3.0.",
+        "price": "$40.00"
+    },
+    "Dragonfly Yellowjacket - Racing": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/drake-dragonfly/Dragonfly-Yellowjacket",
+        "status": "Flight Ready\n        Available in Alpha 3.0.",
+        "price": "Not available"
+    },
+    "E1 Spirit - Passenger": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/spirit/E1-Spirit",
+        "status": "In Concept",
+        "price": "$150.00"
+    },
+    "Eclipse - Stealth Bomber": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/eclipse/Eclipse",
+        "status": "Flight Ready",
+        "price": "$300.00"
+    },
+    "Endeavor - Heavy Science": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/misc-endeavor/Endeavor",
+        "status": "In Concept",
+        "price": "$350.00"
+    },
+    "Expanse - Refinery": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/expanse/Expanse",
+        "status": "In Concept",
+        "price": "$150.00"
+    },
+    "F7A Hornet - Medium Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7A-Hornet",
+        "status": "In Concept",
+        "price": "Not available"
+    },
+    "F7C Hornet - Medium Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-Hornet",
+        "status": "Flight Ready",
+        "price": "$110.00"
+    },
+    "F7C Hornet Wildfire - Medium Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-Hornet-Wildfire",
+        "status": "Flight Ready",
+        "price": "$175.00"
+    },
+    "F7C-M Super Hornet - Medium Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-M-Super-Hornet",
+        "status": "Flight Ready",
+        "price": "$185.00"
+    },
+    "F7C-M Super Hornet Heartseeker - Medium Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-M-Super-Hornet-Heartseeker",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "F7C-R Hornet Tracker - Pathfinder": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-R-Hornet-Tracker",
+        "status": "Flight Ready",
+        "price": "$140.00"
+    },
+    "F7C-S Hornet Ghost - Stealth Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-S-Hornet-Ghost",
+        "status": "Flight Ready",
+        "price": "$125.00"
+    },
+    "F8C Lightning - Heavy Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/lightning/F8C-Lightning",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "F8C Lightning Executive Edition - Heavy Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/lightning/F8C-Lightning-Executive-Edition",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Freelancer - Medium Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/misc-freelancer/Freelancer",
+        "status": "Flight Ready\n        This ship is in game and ready to fly immediately.",
+        "price": "$110.00"
+    },
+    "Freelancer DUR - Expedition": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/misc-freelancer/Freelancer-DUR",
+        "status": "Flight Ready",
+        "price": "$135.00"
+    },
+    "Freelancer MAX - Medium Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/misc-freelancer/Freelancer-MAX",
+        "status": "Flight Ready",
+        "price": "$150.00"
+    },
+    "Freelancer MIS - Gun Ship": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/misc-freelancer/Freelancer-MIS",
+        "status": "Flight Ready",
+        "price": "$175.00"
+    },
+    "Fury - Snub Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/fury/Fury",
+        "status": "Flight Ready",
+        "price": "$55.00"
+    },
+    "Fury LX - Racing": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/fury/Fury-LX",
+        "status": "Flight Ready",
+        "price": "$55.00"
+    },
+    "Fury MX - Snub Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/fury/Fury-MX",
+        "status": "Flight Ready",
+        "price": "$55.00"
+    },
+    "G12 - Touring": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/origin-g12/G12",
+        "status": "In Concept",
+        "price": "$60.00"
+    },
+    "G12a - Military": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/origin-g12/G12a",
+        "status": "In Concept",
+        "price": "$65.00"
+    },
+    "G12r - Racing": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/origin-g12/G12r",
+        "status": "In Concept",
+        "price": "$60.00"
+    },
+    "Galaxy - Modular": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/galaxy/Galaxy",
+        "status": "In Concept",
+        "price": "$380.00"
+    },
+    "Genesis - Passenger": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/starliner/Genesis",
+        "status": "In Concept\n        Waiting for resources to start modeling",
+        "price": "$400.00"
+    },
+    "Gladiator - Bomber": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/anvil-gladiator/Gladiator",
+        "status": "Flight Ready",
+        "price": "$165.00"
+    },
+    "Gladius - Light Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/gladius/Gladius",
+        "status": "Flight Ready",
+        "price": "$90.00"
+    },
+    "Gladius Valiant - Light Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/gladius/Gladius-Valiant",
+        "status": "Flight Ready",
+        "price": "$110.00"
+    },
+    "Glaive - Medium Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/esperia-glaive/Glaive",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Hammerhead - Heavy Gun Ship": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/hammerhead/Hammerhead",
+        "status": "Flight Ready",
+        "price": "$725.00"
+    },
+    "Hammerhead Best In Show Edition - Heavy Gun Ship": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/hammerhead/Hammerhead-Best-In-Show-Edition",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Hawk - Light Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/hawk/Hawk",
+        "status": "Flight Ready",
+        "price": "$100.00"
+    },
+    "Herald - Medium Data": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/herald/Herald",
+        "status": "Flight Ready\n        This ship is in game and ready to fly immediately.",
+        "price": "$85.00"
+    },
+    "HoverQuad - Racing": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/hoverquad/HoverQuad",
+        "status": "Flight Ready",
+        "price": "$30.00"
+    },
+    "Hull A - Medium Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/hull/Hull-A",
+        "status": "Flight Ready",
+        "price": "$90.00"
+    },
+    "Hull B - Heavy Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/hull/Hull-B",
+        "status": "In Concept\n        Concept complete.",
+        "price": "$140.00"
+    },
+    "Hull C - Heavy Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/hull/Hull-C",
+        "status": "Flight Ready\n        Currently being built and tested for implementation in-game.",
+        "price": "$500.00"
+    },
+    "Hull D - Heavy Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/hull/Hull-D",
+        "status": "In Concept\n        Concept complete.",
+        "price": "$550.00"
+    },
+    "Hull E - Heavy Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/hull/Hull-E",
+        "status": "In Concept\n        Concept complete.",
+        "price": "Not available"
+    },
+    "Hurricane - Heavy Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/hurricane/Hurricane",
+        "status": "Flight Ready",
+        "price": "$210.00"
+    },
+    "Idris-M - Frigate": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/aegis-idris/Idris-M",
+        "status": "In Concept\n        Currently being built and tested for implementation in-game.",
+        "price": "Not available"
+    },
+    "Idris-P - Frigate": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/aegis-idris/Idris-P",
+        "status": "In Concept\n        Currently being built and tested for implementation in-game.",
+        "price": "Not available"
+    },
+    "Javelin - Destroyer": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/aegis-javelin/Javelin",
+        "status": "In Concept\n        Currently being built and tested for implementation in-game.",
+        "price": "Not available"
+    },
+    "Khartu-Al - Light Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/khartu/Khartu-Al",
+        "status": "Flight Ready",
+        "price": "$170.00"
+    },
+    "Kraken - Multi-Role - Light Carrier": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/drake-kraken/Kraken",
+        "status": "In Concept",
+        "price": "Not available"
+    },
+    "Kraken Privateer - Multi-Role - Light Carrier": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/drake-kraken/Kraken-Privateer",
+        "status": "In Concept",
+        "price": "Not available"
+    },
+    "Legionnaire - Boarding": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/legionnaire/Legionnaire",
+        "status": "In Concept",
+        "price": "$120.00"
+    },
+    "Liberator - Light Carrier": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/liberator/Liberator",
+        "status": "In Concept",
+        "price": "$575.00"
+    },
+    "Lynx  - Luxury Transport/Explorer": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/ursa/Lynx",
+        "status": "Flight Ready",
+        "price": "$60.00"
+    },
+    "M2 Hercules - Military Transport": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/crusader-starlifter/M2-Hercules",
+        "status": "Flight Ready",
+        "price": "$520.00"
+    },
+    "M50 - Racing": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/origin-m50/M50",
+        "status": "Flight Ready",
+        "price": "$100.00"
+    },
+    "Mantis - Interdictor ": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/rsi-mantis/Mantis",
+        "status": "Flight Ready",
+        "price": "$150.00"
+    },
+    "Merchantman - Heavy Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/merchantman/Merchantman",
+        "status": "In Concept\n        Hull concept complete",
+        "price": "$650.00"
+    },
+    "Mercury - Medium Cargo/Medium Data": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/crusader-mercury-star-runner/Mercury",
+        "status": "Flight Ready",
+        "price": "$260.00"
+    },
+    "MOLE - Prospecting and Mining": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/argo-mole/MOLE",
+        "status": "Flight Ready",
+        "price": "$315.00"
+    },
+    "MPUV Cargo - Light Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/argo/MPUV-Cargo",
+        "status": "Flight Ready",
+        "price": "$35.00"
+    },
+    "MPUV Personnel - Passenger": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/argo/MPUV-Personnel",
+        "status": "Flight Ready",
+        "price": "$40.00"
+    },
+    "Mule - Transport": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/mule/Mule",
+        "status": "Flight Ready",
+        "price": "$45.00"
+    },
+    "Mustang Alpha - Cargo": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Alpha",
+        "status": "Flight Ready",
+        "price": "$30.00"
+    },
+    "Mustang Alpha Vindicator - Starter / Light Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Alpha-Vindicator",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Mustang Beta - Pathfinder": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Beta",
+        "status": "Flight Ready",
+        "price": "$40.00"
+    },
+    "Mustang Delta - Light Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Delta",
+        "status": "Flight Ready",
+        "price": "$65.00"
+    },
+    "Mustang Gamma - Racing": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Gamma",
+        "status": "Flight Ready",
+        "price": "$55.00"
+    },
+    "Mustang Omega - Racing": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/mustang/Mustang-Omega",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Nautilus  - Minelayer": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/aegis-nautilus/Nautilus",
+        "status": "In Concept",
+        "price": "$725.00"
+    },
+    "Nautilus Solstice Edition - Minelayer": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/aegis-nautilus/Nautilus-Solstice-Edition",
+        "status": "In Concept",
+        "price": "Not available"
+    },
+    "Nomad - Starter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/nomad/Nomad",
+        "status": "Flight Ready",
+        "price": "$80.00"
+    },
+    "Nova - Combat": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/nova-tank/Nova",
+        "status": "Flight Ready",
+        "price": "$120.00"
+    },
+    "Nox - Racing": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/nox/Nox",
+        "status": "Flight Ready\n        Available in Alpha 3.0.",
+        "price": "$45.00"
+    },
+    "Nox Kue - Racing": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/nox/Nox-Kue",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Odyssey - Expedition": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/odyssey/Odyssey",
+        "status": "In Concept",
+        "price": "$700.00"
+    },
+    "Orion - Heavy Mining": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/orion/Orion",
+        "status": "In Concept\n        Hull concept complete",
+        "price": "$650.00"
+    },
+    "P-52 Merlin - Snub Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/p52-merlin/P-52-Merlin",
+        "status": "Flight Ready",
+        "price": "$25.00"
+    },
+    "P-72 Archimedes - Racing": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/p72-archimedes/P-72-Archimedes",
+        "status": "Flight Ready",
+        "price": "$35.00"
+    },
+    "P-72 Archimedes Emerald - Racing": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/p72-archimedes/P-72-Archimedes-Emerald",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Perseus - Frigate": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/perseus/Perseus",
+        "status": "In Concept",
+        "price": "$675.00"
+    },
+    "Pioneer - Heavy Construction": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/pioneer/Pioneer",
+        "status": "In Concept",
+        "price": "Not available"
+    },
+    "Pirate Gladius - Light Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/gladius/Pirate-Gladius",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Polaris - Corvette": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/polaris/Polaris",
+        "status": "In Concept",
+        "price": "$750.00"
+    },
+    "Prospector - Prospecting and Mining": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/misc-prospector/Prospector",
+        "status": "Flight Ready\n        Available in Alpha 3.0.",
+        "price": "$155.00"
+    },
+    "Prowler - Dropship": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/prowler/Prowler",
+        "status": "Flight Ready",
+        "price": "$440.00"
+    },
+    "RAFT - Medium Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/raft/RAFT",
+        "status": "Flight Ready",
+        "price": "$125.00"
+    },
+    "Railen - Medium Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/railen/Railen",
+        "status": "In Concept",
+        "price": "$225.00"
+    },
+    "Ranger CV - Touring": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/tumbril-ranger/Ranger-CV",
+        "status": "In Concept",
+        "price": "$35.00"
+    },
+    "Ranger RC - Racing": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/tumbril-ranger/Ranger-RC",
+        "status": "In Concept",
+        "price": "$35.00"
+    },
+    "Ranger TR - Combat": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/tumbril-ranger/Ranger-TR",
+        "status": "In Concept",
+        "price": "$40.00"
+    },
+    "Razor - Racing": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/razor/Razor",
+        "status": "Flight Ready",
+        "price": "$145.00"
+    },
+    "Razor EX - Stealth": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/razor/Razor-EX",
+        "status": "Flight Ready",
+        "price": "$155.00"
+    },
+    "Razor LX - Luxury": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/razor/Razor-LX",
+        "status": "Flight Ready",
+        "price": "$150.00"
+    },
+    "Reclaimer - Heavy Salvage": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/reclaimer/Reclaimer",
+        "status": "Flight Ready\n        Currently being built and tested for implementation in-game.",
+        "price": "$400.00"
+    },
+    "Reclaimer Best In Show Edition - Heavy Salvage": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/reclaimer/Reclaimer-Best-In-Show-Edition",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Redeemer - Gunship": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/redeemer/Redeemer",
+        "status": "Flight Ready",
+        "price": "$330.00"
+    },
+    "Reliant Kore - Starter / Light Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/reliant/Reliant-Kore",
+        "status": "Flight Ready\n        This ship is in game and ready to fly immediately.",
+        "price": "$65.00"
+    },
+    "Reliant Mako - Reporting": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/reliant/Reliant-Mako",
+        "status": "Flight Ready",
+        "price": "$95.00"
+    },
+    "Reliant Sen - Light Science": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/reliant/Reliant-Sen",
+        "status": "Flight Ready",
+        "price": "$85.00"
+    },
+    "Reliant Tana - Light Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/reliant/Reliant-Tana",
+        "status": "Flight Ready",
+        "price": "$75.00"
+    },
+    "Retaliator - Heavy Gunship": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/aegis-retaliator/Retaliator",
+        "status": "In Concept\n        Concept complete. Current owners receive Retaliator Bomber as loaner.",
+        "price": "$150.00"
+    },
+    "Retaliator Bomber - Heavy Bomber": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/aegis-retaliator/Retaliator-Bomber",
+        "status": "Flight Ready\n        This ship is in game and ready to fly immediately.",
+        "price": "$275.00"
+    },
+    "ROC - Mining": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/roc/ROC",
+        "status": "Flight Ready",
+        "price": "$55.00"
+    },
+    "ROC-DS - Mining": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/roc/ROC-DS",
+        "status": "Flight Ready",
+        "price": "$75.00"
+    },
+    "Sabre - Stealth Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/sabre/Sabre",
+        "status": "Flight Ready\n        Flight Ready",
+        "price": "$170.00"
+    },
+    "Sabre Comet - Medium Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/sabre/Sabre-Comet",
+        "status": "Flight Ready",
+        "price": "$185.00"
+    },
+    "Sabre Raven - Interdiction": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/sabre/Sabre-Raven",
+        "status": "Flight Ready\n        Available in 3.0 patch.",
+        "price": "Not available"
+    },
+    "San'tok.y\u0101i - Medium Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/aopoa-santokyai/Santoky-i",
+        "status": "In Concept",
+        "price": "$220.00"
+    },
+    "Scorpius - Heavy Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/scorpius/Scorpius",
+        "status": "Flight Ready",
+        "price": "$240.00"
+    },
+    "Scorpius Antares - Heavy Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/scorpius/Scorpius-Antares",
+        "status": "Flight Ready",
+        "price": "$230.00"
+    },
+    "Scythe - Medium Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/scythe/Scythe",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Spartan - Transport": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/spartan/Spartan",
+        "status": "Flight Ready",
+        "price": "$80.00"
+    },
+    "SRV - Recovery": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/argo-srv/SRV",
+        "status": "Flight Ready",
+        "price": "$150.00"
+    },
+    "Starfarer - Heavy Refuelling": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/misc-starfarer/Starfarer",
+        "status": "Flight Ready",
+        "price": "$300.00"
+    },
+    "Starfarer Gemini - Heavy Refuelling": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/misc-starfarer/Starfarer-Gemini",
+        "status": "Flight Ready",
+        "price": "$340.00"
+    },
+    "Storm - Combat Support": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/storm/Storm",
+        "status": "Flight Ready",
+        "price": "$80.00"
+    },
+    "Storm AA - Combat Support": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/storm/Storm-AA",
+        "status": "Flight Ready",
+        "price": "$90.00"
+    },
+    "STV - Transport": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/stv/STV",
+        "status": "Flight Ready",
+        "price": "$40.00"
+    },
+    "Syulen - Starter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/syulen/Syulen",
+        "status": "Flight Ready",
+        "price": "$70.00"
+    },
+    "Talon - Light Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/talon/Talon",
+        "status": "Flight Ready",
+        "price": "$115.00"
+    },
+    "Talon Shrike - Light Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/talon/Talon-Shrike",
+        "status": "Flight Ready",
+        "price": "$115.00"
+    },
+    "Terrapin - Pathfinder": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/terrapin/Terrapin",
+        "status": "Flight Ready\n        Currently being built and tested for implementation in-game.",
+        "price": "$220.00"
+    },
+    "Ursa - Exploration": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/ursa/Ursa",
+        "status": "Flight Ready\n        Available in Alpha 3.0.",
+        "price": "$50.00"
+    },
+    "Ursa Fortuna - Exploration": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/ursa/Ursa-Fortuna",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Valkyrie - Dropship": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/anvil-valkyrie/Valkyrie",
+        "status": "Flight Ready",
+        "price": "$375.00"
+    },
+    "Valkyrie Liberator Edition - Dropship": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/anvil-valkyrie/Valkyrie-Liberator-Edition",
+        "status": "Flight Ready",
+        "price": "Not available"
+    },
+    "Vanguard Harbinger - Bomber": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/vanguard/Vanguard-Harbinger",
+        "status": "Flight Ready",
+        "price": "$290.00"
+    },
+    "Vanguard Hoplite - Dropship": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/vanguard/Vanguard-Hoplite",
+        "status": "Flight Ready\n        This ship is in game and ready to fly immediately.",
+        "price": "$240.00"
+    },
+    "Vanguard Sentinel - Interdiction": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/vanguard/Vanguard-Sentinel",
+        "status": "Flight Ready\n        Concept complete.",
+        "price": "$275.00"
+    },
+    "Vanguard Warden - Heavy Fighter": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/vanguard/Vanguard-Warden",
+        "status": "Flight Ready",
+        "price": "$260.00"
+    },
+    "Vulcan - Medium Repair / Medium Refuel": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/vulcan/Vulcan",
+        "status": "In Concept",
+        "price": "$200.00"
+    },
+    "Vulture - Light Salvage": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/drake-vulture/Vulture",
+        "status": "Flight Ready",
+        "price": "$175.00"
+    },
+    "X1 - Touring": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/x1/X1",
+        "status": "In Concept",
+        "price": "$40.00"
+    },
+    "X1 Force - Pathfinder": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/x1/X1-Force",
+        "status": "In Concept",
+        "price": "$50.00"
+    },
+    "X1 Velocity - Racing": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/x1/X1-Velocity",
+        "status": "In Concept",
+        "price": "$45.00"
+    },
+    "Zeus Mk II CL - Medium Freight": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/zeus-mk-ii/Zeus-Mk-II-CL",
+        "status": "In Concept",
+        "price": "$135.00"
+    },
+    "Zeus Mk II ES - Expedition": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/zeus-mk-ii/Zeus-Mk-II-ES",
+        "status": "In Concept",
+        "price": "$135.00"
+    },
+    "Zeus Mk II MR - Interdiction": {
+        "link": "https://robertsspaceindustries.com/pledge/ships/zeus-mk-ii/Zeus-Mk-II-MR",
+        "status": "In Concept",
+        "price": "$170.00"
+    },
+    "cached_time": 1701291043.1868298
+}

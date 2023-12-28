@@ -78,6 +78,7 @@ class GeneralUtility(commands.Cog):
             amount = len(messages)-1
             for msg in messages:
                 try:
+                    await asyncio.sleep(.25)
                     await msg.delete()
                 except:
                     continue

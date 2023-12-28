@@ -1,4 +1,4 @@
-#Version: 0.1
+#Version: 0.1.2
 
 """
 TODO: Check for possible performance optimization, reduce redundancy
@@ -15,14 +15,16 @@ import sys
 import datetime
 import logging
 import traceback
+from pytz import timezone
 from pathlib import Path
 from discord.ext import commands, tasks
 from discord.ext.commands import MissingPermissions, NotOwner
+from discord.ext.pages import Paginator, Page
 
 # This section of code is responsible for setting up logging for the bot.
-logname = Path(sys.path[0], 'bot.log')
+logpath = Path(sys.path[0], 'bot.log')
 
-logging.basicConfig(filename=logname,
+logging.basicConfig(filename=logpath,
                     filemode='a',
                     format='%(asctime)s.%(msecs)d %(name)s %(levelname)s %(message)s',
                     datefmt='%H:%M:%S',
@@ -43,6 +45,8 @@ def is_authorized(**perms):
 
 intents = discord.Intents.all()
 bot = discord.Bot(intents=intents)
+
+tz = timezone('Europe/Berlin')
 
 # The `StartupTimes` class provides methods for initializing, retrieving, updating, and clearing
 # startup times stored in a SQLite database.
@@ -110,25 +114,23 @@ class Settings:
         """
         with sqlite3.connect(self.db_path) as con:
             c = con.cursor()
-            settings = ['bottoken', 'statuschannel_id', 'bot_status', 'spreadsheet_key']
-            setup_vars = ['bottoken', 'statuschannel_id', 'bot_status', 'spreadsheet_key']
-            default_settings = ['Invalid', 'Invalid', 'Custom Bot status', 'Invalid']
+            settings = {'bottoken':None, 'statuschannel_id':None, 'bot_status':'Custom Bot status', 'spreadsheet_key':None}
             c.execute('CREATE TABLE IF NOT EXISTS settings(setting TEXT, value TEXT)')
             con.commit()
-            for s in settings:
+            for s in list(settings.keys()):
                 if not self.check_setting(s):
                     c.execute('INSERT INTO settings (setting) VALUES (?)', (s,))
                     con.commit()
-        for i, s in enumerate(setup_vars):
+        for k, v in settings.items():
             while True:
-                if not self.check_setting(s) or self.retrieve_setting(s) is None:
-                    val = input(f'{s}:')
+                if not self.check_setting(k) or self.retrieve_setting(k) is None:
+                    val = input(f'{k}:')
                     if val == '':
-                        if default_settings[i] == 'Invalid':
+                        if v is None:
                             continue
-                        val = default_settings[i]
-                    self.update_settings(val, s)
-                    print(f'Added {s}: {val}\n')
+                        val = v
+                    self.update_settings(val, k)
+                    print(f'Added {k}: {val}\n')
                 break     
     
     def check_setting(self, setting: str) -> bool:
@@ -170,36 +172,48 @@ class MyView(discord.ui.View):
     @commands.is_owner()
     async def button_callbackkillbot(self, button, interaction):
         try:
-            await interaction.response.defer()
-            logger.info("Bot Closed")
-            await bot.close()
-            sys.exit(1)
-        except:logger.error(traceback.format_exc())
+            if interaction.user.id in owners:
+                await interaction.response.defer()
+                logger.info("Bot Closed")
+                await bot.close()
+                sys.exit(1)
+            else:
+                await interaction.response.send_message('No.')
+        except Exception:logger.error(traceback.format_exc())
     @discord.ui.button(label="Restart", style=discord.ButtonStyle.danger)
     @commands.is_owner()
     async def button_callbackrestart(self, button: discord.Button, interaction: discord.Interaction):
         try:
-            await interaction.response.defer()
-            logger.info('Restarting')
-            await restart()
-        except:logger.error(traceback.format_exc())
+            if interaction.user.id in owners:
+                await interaction.response.defer()
+                logger.info('Restarting')
+                await restart()
+            else:
+                await interaction.response.send_message('No.')
+        except Exception:logger.error(traceback.format_exc())
     @discord.ui.button(label="Sync Commands", row=1)
     @commands.is_owner()
     async def button_callbacksync(self, button: discord.Button, interaction: discord.Interaction):
         try:
-            await interaction.response.send_message('Syncing Commands', ephemeral=True, delete_after=10)
-            logger.info('Syncing Commands')
-            await bot.sync_commands()
-        except:logger.error(traceback.format_exc())
+            if interaction.user.id in owners:
+                await interaction.response.send_message('Syncing Commands', ephemeral=True, delete_after=10)
+                logger.info('Syncing Commands')
+                await bot.sync_commands()
+            else:
+                await interaction.response.send_message('No.')
+        except Exception:logger.error(traceback.format_exc())
     @discord.ui.button(label="Reload Cogs", row=1)
     @commands.is_owner()
     async def button_callbackreload(self, button: discord.Button, interaction: discord.Interaction):
         try:
-            await interaction.response.send_message('Reloading Cogs', ephemeral=True, delete_after=10)
-            logger.info('Reloading Cogs')
-            for ext in bot_extensions:
-                bot.reload_extension(ext)
-        except:logger.error(traceback.format_exc())
+            if interaction.user.id in owners:
+                await interaction.response.send_message('Reloading Cogs', ephemeral=True, delete_after=10)
+                logger.info('Reloading Cogs')
+                for ext in bot_extensions:
+                    bot.reload_extension(ext)
+            else:
+                await interaction.response.send_message('No.')
+        except Exception:logger.error(traceback.format_exc())
 
 @tasks.loop(seconds=5)
 async def status_msg():
@@ -227,7 +241,7 @@ async def status_msg():
         msg = await chan.send(embed=embed,view=MyView())
     try:
         await msg.edit(embed=embed,view=MyView())
-    except:
+    except Exception:
         msg = await chan.send(embed=embed,view=MyView())
 
 @tasks.loop(seconds=10)
@@ -237,24 +251,30 @@ async def version_control():
     new version is detected.
     """
     try:
-        with open(Path(sys.path[0],os.path.basename(__file__)), 'r') as f:
-            lines = f.readlines(1)
-            file_version = lines[0].strip('#Version: \n')
-        if file_version and current_version != file_version:
+        script_path = Path(sys.path[0], os.path.basename(__file__))
+        file_modified_time = os.path.getmtime(script_path)
+        if file_modified_time > bot_modifytime:
             os.system('cls') if sys.platform == 'win32' else os.system('clear')
-            print(f'Updated {bot.user.name}:\nbefore: {current_version}\nafter: {file_version}\n')
-            os.execv(sys.executable, ['python'] + sys.argv)
-    except:logger.error(traceback.format_exc())
+            t = datetime.datetime.now(tz).strftime('%X')
+            print(f'{t} - Updated {bot.user.name}')
+            await restart()
+    except Exception:
+        logger.error(traceback.format_exc())
 
 async def restart():
-    """
-    The function restarts the bot by changing its presence to "Restarting" and then executing the
-    Python script again.
-    """
     try:
-        await bot.change_presence(activity=discord.Game('Restarting'), status=discord.Status.idle)
-        os.execv(sys.executable, ['python'] + sys.argv)
-    except:logger.error(traceback.format_exc())
+        await bot.change_presence(
+        activity=discord.Activity(
+            type=discord.ActivityType.custom,
+            name="Restarting bot",
+            state="Restarting bot",
+        )
+        )
+        await asyncio.sleep(1)
+        python_executable = sys.executable
+        os.execv(python_executable, [python_executable] + sys.argv)
+    except Exception:
+        logger.error(traceback.format_exc())
 
 @bot.slash_command(guild_ids=[1109530644578582590], guild_only=True)
 @commands.is_owner()
@@ -272,13 +292,24 @@ async def set_status(ctx, status:discord.Option(str)):
 @bot.slash_command(guild_ids=[1109530644578582590], guild_only=True)
 @commands.is_owner()
 async def show_log(ctx):
-    log = discord.File(fp=Path(sys.path[0], 'bot.log'))
-    await ctx.respond(file=log, ephemeral=True, delete_after=120)
+    await ctx.defer()
+    if not logpath.is_file() or logpath.stat().st_size == 0:
+        await ctx.respond("The log file is empty or doesn't exist.")
+        return
+    with open(logpath, 'r') as file:
+        content = file.read()
+    chunk_size = 2000
+    chunks = [content[i:i + chunk_size] for i in range(0, len(content), chunk_size)]
+    pages = [Page(content=chunk) for chunk in chunks]
+    paginator = Paginator(pages=pages, author_check=True)
+    msg = await paginator.respond(ctx.interaction)
+    await asyncio.sleep(120)
+    await msg.delete()
 
 @bot.slash_command(guild_ids=[1109530644578582590], guild_only=True)
 @commands.is_owner()
 async def clear_log(ctx):
-    with open (Path(sys.path[0], 'bot.log'), 'r+') as f:
+    with open (logpath, 'r+') as f:
         f.seek(0)
         f.truncate(0)
     await ctx.respond('Cleared the Log', ephemeral=True, delete_after=10)
@@ -291,10 +322,11 @@ async def killbot(ctx):
         logger.info("Bot Closed")
         await bot.close()
         sys.exit(1)
-    except:logger.error(traceback.format_exc())
+    except Exception:logger.error(traceback.format_exc())
 
 @bot.event
 async def on_connect():
+    """I'll do smth, eventually"""
     pass
 
 @bot.event
@@ -309,7 +341,7 @@ async def on_command_error(ctx, error):
             await ctx.respond('You do not have the necessary Permission(s).', ephemeral=True, delete_after=10)
         if isinstance(error, NotOwner):
             await ctx.respond('You do not have the necessary Permission(s).', ephemeral=True, delete_after=10)
-    except:logger.error(traceback.format_exc())
+    except Exception:logger.error(traceback.format_exc())
 
 @bot.event
 async def on_ready():
@@ -318,7 +350,7 @@ async def on_ready():
     well as displaying the current version and setting a custom status.
     """
     try:
-        set = Settings()
+        settings = Settings()
         global current_version
         with open(Path(sys.path[0],os.path.basename(__file__)), 'r') as f:
             l1 = f.readlines(1)
@@ -330,12 +362,12 @@ async def on_ready():
             activity=discord.Activity(
                 type=discord.ActivityType.custom,
                 name="Custom Status",
-                state=set.bot_status,
+                state=settings.bot_status,
             )
         )
         await bot_ready()
         status_msg.start()
-    except:logger.error(traceback.format_exc())
+    except Exception:logger.error(traceback.format_exc())
 
 async def bot_ready():
     global load_time, avg_load_time
@@ -356,17 +388,18 @@ def run():
     The function runs a bot by loading extensions and running it with the bot token.
     """
     try:
-        with open(Path(sys.path[0], 'bot.log'), 'a', encoding='utf-8') as f:
+        with open(logpath, 'a', encoding='utf-8') as f:
             f.write(f"\n\n-----{time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))}-----\n")
         settings = Settings()
         for extension in bot_extensions: 
             try:    
                 bot.load_extension(extension)
-            except:logger.error(traceback.format_exc())
+            except Exception:logger.error(traceback.format_exc())
         bot.run(settings.bottoken)
-    except:logger.error(traceback.format_exc())
+    except Exception:logger.error(traceback.format_exc())
 
-global bot_starttime, bot_extensions
+global bot_starttime, bot_extensions, bot_modifytime
+bot_modifytime = os.path.getmtime(Path(sys.path[0], os.path.basename(__file__)))
 bot_starttime = time.perf_counter()
 bot_extensions = ('cogs.generalutility', 'cogs.aboutme', 'cogs.bounty', 'cogs.rsiinfo')
 

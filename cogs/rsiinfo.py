@@ -2,26 +2,19 @@ import asyncio
 import gc
 import os
 import sys
-import io
 import discord
 import sqlite3
-import re
-import datetime
 import traceback
 import logging
-import json
-import requests 
 import time
 import functools
 from functools import lru_cache
 from CogBase import Localization
 from RSIScraper import RSIScraper
-from bs4 import BeautifulSoup
-from pprint import pprint
-from collections import OrderedDict
 from discord.ext import commands, tasks
-from discord.commands import slash_command, Option, user_command
+from discord.ext.pages import Paginator, Page
 from discord.ext.commands import MissingPermissions, NotOwner
+from discord.commands import slash_command, Option, user_command
 from pathlib import Path
 
 locales = ('en-US', 'de')
@@ -37,20 +30,80 @@ def is_authorized(**perms):
         return ctx.author.id in owners or await original(ctx)
     return commands.check(extended_check)
 
-'''
-class OrgInfoView(discord.ui.View):
-    def __init__(self, website_url):
-        self.website_url = website_url
-        self.
+class Tools:
+    @lru_cache()
+    async def create_userinfo_embed(self, ign):
+        user = RSIScraper.User(ign)
+        await user.initialize()
+        embed = discord.Embed()
+        mainorg = user.organizations.main
+        if user.exists:
+            mainorgstr = f'**Name**: {mainorg.name}\n***SID: [{mainorg.tag}]({mainorg.URL})***\n**Membercount**: {mainorg.members.amount}\n**Rank**: {mainorg.rank} (Rank {mainorg.rank_tier})' if mainorg.exists else 'NO MAIN ORG'
+            embed.set_author(name=user.name)
+            embed.add_field(name='Account Age', value=f'**Enlisted**: {user.accountage.enlistment_date}\n**Age**: {user.accountage.str}')
+            embed.add_field(name='Main Organization', value=mainorgstr)
+        else:
+            embed.add_field(name='ERROR', value=f'User "{ign}" not found')
+        return embed, mainorg.tag, mainorg.exists, mainorg
+    
+    @lru_cache
+    async def create_orginfo_embeds(self, org_tag, org=None) -> list:
+        try:
+            if org is None:
+                org = RSIScraper.Organization(org_tag)
+                await org.initialize()
+            pages = []
+            if org.exists:
+                total_members = len(org.members.dict)
+                embed = discord.Embed(title=org.name)
+                infostr = f'Members: {org.members.amount}\nRedacted: {org.members.redacted_count}\nHidden: {org.members.hidden_count}'
+                embed.add_field(name='Information', value=infostr)
+                embed.set_footer(text=org.tag)
+                memberstr = ''
+                member_index = 0
+                for i, (k, v) in enumerate(org.members.dict.items()):
+                    append_str = f'**{k}**, {v[0]} (Rank {v[1]})\n'
+                    if i == total_members - 1:
+                        memberstr += append_str
+                    if len(memberstr)+len(append_str) >= 1024 or member_index >= 15 or i == total_members - 1:
+                        members = discord.Embed(title=f'Members of {org.name}')
+                        members.add_field(name=f'Members', value=memberstr)
+                        pages.append(Page(embeds=[embed, members]))
+                        memberstr = ''
+                        member_index = 0
+                    member_index += 1
+                    memberstr += append_str
+            else:
+                embed = discord.Embed()
+                embed.add_field(name='ERROR', value=f'Organization "{org_tag}" not found.')
+                pages = [embed]
+            return pages
+        except:
+            logger.error(traceback.format_exc())
 
-    discord.ui.Button(label='Website', style=discord.Colour(0x0a456d))
-    #async def website_callback(self, button:discord.Button, interaction:discord.Interaction):
-        #try:
-        #except:logger.error(traceback.format_exc())
-'''
+class OrgInfoView(discord.ui.View):
+    def __init__(self, org_tag, org=None):
+        super().__init__(timeout=None)
+        self.org_tag = org_tag
+        self.org = org
+
+    @discord.ui.button(label='Organization Info')
+    async def website_callback(self, button:discord.Button, interaction:discord.Interaction):
+        try:
+            self.website_callback
+            await interaction.response.defer()
+            if self.org is None:
+                pages = await Tools().create_orginfo_embeds(self.org_tag)
+            else:
+                pages = await Tools().create_orginfo_embeds(self.org_tag, self.org)
+            paginator = Paginator(pages=pages, author_check=False, disable_on_timeout=True)
+            msg = await paginator.respond(interaction)
+            await asyncio.sleep(60)
+            await msg.delete()
+        except:logger.error(traceback.format_exc())
         
 class RSIInfo(commands.Cog):
-    def __init__(self, bot):
+    def __init__(self, bot=None):
         self.bot = bot
         self.db_path = Path(sys.path[0], 'bot.db')
         self.clear_lru_cache.start()
@@ -75,58 +128,29 @@ class RSIInfo(commands.Cog):
             ign = result[0] if result else None
         return ign
 
-    @lru_cache(maxsize=32)
-    def create_userinfo_embed(self, ign):
-        user = RSIScraper.User(ign)
-        embed = discord.Embed()
-        if user.exists:
-            embed.set_author(name=user.name, icon_url=user.media.profile_picture)
-            embed.add_field(name='Account Age', value=f'**Enlisted**: {user.accountage.enlistment_date}\n**Age**: {user.accountage.str}')
-            embed.add_field(name='Main Organization', value=f'**Name**: {user.organizations.main.name}\n**SID**: *[{user.organizations.main.tag}]({user.organizations.main.URL})*\n'
-                            f'**Membercount**: {user.organizations.main.members.amount}\n'
-                            f'**Rank**: {user.organizations.main.rank}')
-        else:
-            embed.add_field(name='ERROR', value=f'User "{ign}" not found')
-        return embed
-    
-    @lru_cache(maxsize=32)
-    def create_orginfo_embeds(self, org_tag) -> list:
-        try:
-            org = RSIScraper.Organization(org_tag)
-            if org.exists:
-                embeds = []
-                embed = discord.Embed(title=org.name)
-                members = discord.Embed(title=f'Members of {org.name}')
-                memberstr = ',\n'.join(sorted(org.members.list))
-                infostr = f'{len(org.members.list)} members\n'
-                embed.add_field(name='Information', value=infostr)
-                embed.set_footer(text=org.tag)
-                embeds.append(embed)
-                members.add_field(name=f'Members', value=memberstr)
-                embeds.append(members)
-            else:
-                embed = discord.Embed()
-                embed.add_field(name='ERROR', value=f'Organization "{org_tag}" not found.')
-            return embeds
-        except:logger.error(traceback.format_exc())
-
     @slash_command()
     async def user_info(self, ctx:discord.ApplicationContext, ingamename:str):
         try:
-            embed = self.create_userinfo_embed(ingamename)
-            await ctx.respond(embed=embed, delete_after=60)
+            await ctx.defer()
+            s = time.perf_counter() # Startpoint
+            embed, org_tag, exists, mainorg = await Tools().create_userinfo_embed(ingamename)
+            logger.info(f'Userinfo for {ingamename} took {round(time.perf_counter()-s, 2)}s') # Endpoint
+            await ctx.followup.send(embed=embed, delete_after=60, view=OrgInfoView(org_tag=org_tag, org=mainorg)) if exists else await ctx.followup.send(embed=embed, delete_after=60)
         except:logger.error(traceback.format_exc())
 
     @user_command(name='Account Info', cog='rsiinfo')
-    async def user_info_usercmd(self, ctx, user: discord.Member):
+    async def user_info_usercmd(self, ctx:discord.ApplicationContext, user: discord.Member):
         try:
+            await ctx.defer()
             ign = self.load_ign(user.id)
             if ign:
-                embed = self.create_userinfo_embed(ign)
+                s = time.perf_counter() # Startpoint
+                embed, org_tag, exists, mainorg = await Tools().create_userinfo_embed(ign)
+                logger.info(f'Userinfo for {ign} took {round(time.perf_counter()-s, 2)}s') # Endpoint
             else:
                 embed = discord.Embed()
                 embed.add_field(name='ERROR', value='User has not linked his account.')
-            await ctx.respond(embed=embed, delete_after=60)
+            await ctx.followup.send(embed=embed, delete_after=60, view=OrgInfoView(org_tag=org_tag, org=mainorg)) if exists else await ctx.followup.send(embed=embed, delete_after=60)
         except:logger.error(traceback.format_exc())
 
     @slash_command(name='linkingamename', description='Verbindet deine Discord ID mit deinem Ingame Namen')
@@ -139,9 +163,17 @@ class RSIInfo(commands.Cog):
         await ctx.respond(f"Discord Account '{ctx.author.display_name} (ID: {ctx.author.id})' verbunden mit Nutzername {ingamename}",ephemeral=True)
 
     @slash_command()
-    async def org_info(self, ctx:discord.ApplicationContext, org_tag: str):
-        embeds = self.create_orginfo_embeds(org_tag)
-        await ctx.respond(embeds=embeds, delete_after=60)
+    async def org_info(self, ctx: discord.ext.commands.Context, org_tag: str):
+        try:
+            await ctx.defer()
+            s = time.perf_counter() # Startpoint
+            pages = await Tools().create_orginfo_embeds(org_tag)
+            logger.info(f'Orginfo for {org_tag} took {round(time.perf_counter()-s, 2)}s') # Endpoint
+            paginator = Paginator(pages=pages, author_check=False, disable_on_timeout=True) 
+            msg = await paginator.respond(ctx.interaction)
+            await asyncio.sleep(60)
+            await msg.delete()
+        except:logger.error(traceback.format_exc())
 
 def setup(bot):
     logger.info(f"Cog {os.path.basename(__file__).replace('.py', '')} loaded")

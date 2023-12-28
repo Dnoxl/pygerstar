@@ -17,7 +17,6 @@ import functools
 import gc
 from CogBase import Localization
 from RSIScraper import RSIScraper
-from bs4 import BeautifulSoup
 from pprint import pprint
 from collections import OrderedDict
 from discord.ext import commands, tasks

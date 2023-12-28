@@ -1,0 +1,4015 @@
+{
+    "cached_time": 1701012431.4566207,
+    "3.1": {
+        "status": "Released",
+        "date": "March 31, 2018",
+        "Characters": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Helmet Polish & Lighting Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/355-Helmet-Polish-Lighting-Improvements",
+                        "text": "Improving overall look of helmets and visual fidelity of lighting"
+                    }
+                },
+                {
+                    "Character Customizer": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/281-Character-Customizer",
+                        "text": "The Character Customizer will allow players to customize their avatar"
+                    }
+                }
+            ]
+        },
+        "Locations": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Planet Tech Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/298-Planet-Tech-Improvements",
+                        "text": "The tech responsible for the generation of planets"
+                    }
+                }
+            ]
+        },
+        "AI": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Ship AI to Subsumption": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/333-Ship-AI-To-Subsumption",
+                        "text": "Converting the Ship's AI behavior to work with Subsumption"
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "6 entries",
+            "entries": [
+                {
+                    "Ship Weapon Balance": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/316-Ship-Weapon-Balance",
+                        "text": "Ship weapon balance pass to ensure they're performing as expected"
+                    }
+                },
+                {
+                    "Visor and HUD Displays": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/305-Visor-And-HUD-Displays",
+                        "text": "Visor and HUD improvements and bug fixes"
+                    }
+                },
+                {
+                    "Ship Damage": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/287-Ship-Damage",
+                        "text": "Ship Damage overhaul with improved physics with better explosions and damage shaders"
+                    }
+                },
+                {
+                    "IFCS - Balance/Tuning iteration tasks": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/286-IFCS-Balance-Tuning-Iteration-Tasks",
+                        "text": "Improvements to Flight Control System"
+                    }
+                },
+                {
+                    "Personal Manager App": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/285-Personal-Manager-App",
+                        "text": "Various improvements to the Personal Manager App on mobiGlas"
+                    }
+                },
+                {
+                    " [Service Beacon] Distress Call": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/258-Service-Beacon-Distress-Call",
+                        "text": "Send out a distress signal and allow other players to travel to your position"
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "5 entries",
+            "entries": [
+                {
+                    "MISC Razor": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/222-MISC-Razor",
+                        "text": "Implementing MISC's long-distance racer, the Razor"
+                    }
+                },
+                {
+                    "Tumbril Cyclone": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/206-Tumbril-Cyclone",
+                        "text": "Implementing Tumbril's ground vehicle, the Cyclone"
+                    }
+                },
+                {
+                    "Aopoa Nox Kue": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/202-Aopoa-Nox-Kue",
+                        "text": "Implementing the Kue variant of Aopoa's Nox open-canopy racer"
+                    }
+                },
+                {
+                    "Aegis Reclaimer": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/201-Aegis-Reclaimer",
+                        "text": "Implementing the Aegis Reclaimer into the game"
+                    }
+                },
+                {
+                    "Anvil Terrapin": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/193-Anvil-Terrapin",
+                        "text": "Implementing Anvil Aerospace's Terrapin into the game"
+                    }
+                }
+            ]
+        },
+        "Weapons and Items": {
+            "amount": "4 entries",
+            "entries": [
+                {
+                    "Preacher Armament Distortion Scattergun": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/326-Preacher-Armament-Distortion-Scattergun",
+                        "text": "Creation and implementation of the ship weapon"
+                    }
+                },
+                {
+                    "Gallenson Tactical Systems GT-Series": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/325-Gallenson-Tactical-Systems-GT-Series",
+                        "text": "Update of the GT-Series line of ship weapons"
+                    }
+                },
+                {
+                    "Gemini R97 Shotgun": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/321-Gemini-R97-Shotgun",
+                        "text": "Creation and implementation of FPS weapon"
+                    }
+                },
+                {
+                    "Amon & Reese Omnisky": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/320-Amon-Reese-Omnisky",
+                        "text": "Update of the Omnisky line of ship weapons"
+                    }
+                }
+            ]
+        },
+        "Core Tech": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Performance Optimization": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/335-Performance-Optimization",
+                        "text": "Ongoing performance improvements with specific quarterly goals to increase overall framerate among all PC specs"
+                    }
+                }
+            ]
+        }
+    },
+    "3.2": {
+        "status": "Released",
+        "date": "June 30, 2018",
+        "Characters": {
+            "amount": "7 entries",
+            "entries": [
+                {
+                    "Legacy Heavy Outlaw": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/353-Legacy-Heavy-Outlaw",
+                        "text": " Revising the older legacy Outlaw armor"
+                    }
+                },
+                {
+                    "Legacy Light Marine": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/352-Legacy-Light-Marine",
+                        "text": "Revising the older legacy Marine armor"
+                    }
+                },
+                {
+                    "Legacy Light Outlaw": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/351-Legacy-Light-Outlaw",
+                        "text": "Revising the older legacy Outlaw armor"
+                    }
+                },
+                {
+                    "Legacy Medium Outlaw": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/350-Legacy-Medium-Outlaw",
+                        "text": " Revising the older legacy Outlaw armor"
+                    }
+                },
+                {
+                    "Legacy Medium Marine": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/349-Legacy-Medium-Marine",
+                        "text": " Revising the older legacy Marine armor"
+                    }
+                },
+                {
+                    "Port Olisar Collection": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/346-Port-Olisar-Collection",
+                        "text": "Creating the Port Olisar costume sets"
+                    }
+                },
+                {
+                    "Legacy Heavy Marine": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/344-Legacy-Heavy-Marine",
+                        "text": "Revising the older legacy Marine armor"
+                    }
+                }
+            ]
+        },
+        "AI": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "[Flight] AI Behaviors": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/304-Flight-AI-Behaviors",
+                        "text": "Improving AI flight behaviors and actions"
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "11 entries",
+            "entries": [
+                {
+                    "Remotely Operated Turrets on Vehicles": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/311-Remotely-Operated-Turrets-On-Vehicles",
+                        "text": "Functionality for players to operate remote turrets on vehicles"
+                    }
+                },
+                {
+                    "Improvements to Manned Turrets on Vehicles": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/309-Improvements-To-Manned-Turrets-On-Vehicles",
+                        "text": "Improvements to player-manned turrets on vehicles"
+                    }
+                },
+                {
+                    "Quantum Travel Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/282-Quantum-Travel-Improvements",
+                        "text": " Improve the overall Quantum Travel experience with upgrades to graphics, audio, and functionality"
+                    }
+                },
+                {
+                    "Item Kiosk Shopping": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/278-Item-Kiosk-Shopping",
+                        "text": "Implementation of shopping kiosks, with an increased variety of available products"
+                    }
+                },
+                {
+                    "Economy Polish 3.2": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/264-Economy-Polish-32",
+                        "text": " Ongoing polish of economy and shopping experiences"
+                    }
+                },
+                {
+                    "Mining on Planetary Bodies": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/263-Mining-On-Planetary-Bodies",
+                        "text": "Adding the systems needed for a player to extract minerals from planetary bodies"
+                    }
+                },
+                {
+                    "Groups System": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/262-Groups-System",
+                        "text": "Ability to team up with and identify friends, travel in groups, coordinate and share location information, and chat within different groups"
+                    }
+                },
+                {
+                    "Quantum Linking": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/260-Quantum-Linking",
+                        "text": "Adding the ability to link with other players ships, allowing group Quantum Travel"
+                    }
+                },
+                {
+                    "Ship Persistence Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/257-Ship-Persistence-Improvements",
+                        "text": "Improvements to the core system responsible for persisting ship records on the PU"
+                    }
+                },
+                {
+                    "PMA / VMA Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/256-PMA-VMA-Improvements",
+                        "text": "Improve the visual presentation, functionality, and usability of the mobiGlas apps"
+                    }
+                },
+                {
+                    "Item 2.0 Ship Systems & Weapons - Power Allocation": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/225-Item-20-Ship-Systems-Weapons-Power-Allocation",
+                        "text": " Ship component functionality, allowing for upgrades as well as degradation"
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "7 entries",
+            "entries": [
+                {
+                    "Aegis Avenger Stalker Revision": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/223-Aegis-Avenger-Stalker-Revision",
+                        "text": "Revising the Aegis Avenger Stalker"
+                    }
+                },
+                {
+                    "Anvil Hurricane": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/210-Anvil-Hurricane",
+                        "text": "Implementing the Anvil Hurricane into the game"
+                    }
+                },
+                {
+                    "Aegis Avenger Titan Revision": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/207-Aegis-Avenger-Titan-Revision",
+                        "text": "Revising the Aegis Avenger Titan"
+                    }
+                },
+                {
+                    "Aegis Avenger Warlock Revision": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/205-Aegis-Avenger-Warlock-Revision",
+                        "text": "Revising the Aegis Avenger Warlock"
+                    }
+                },
+                {
+                    "Origin 600i": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/203-Origin-600i",
+                        "text": "Implementing the Origin 600i into the game"
+                    }
+                },
+                {
+                    "Aegis Eclipse": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/192-Aegis-Eclipse",
+                        "text": "Implementing the Aegis Eclipse into the game"
+                    }
+                },
+                {
+                    "Vanduul Blade": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/191-Vanduul-Blade",
+                        "text": "Implementing the Vanduul Blade fighter into the game"
+                    }
+                }
+            ]
+        },
+        "Weapons and Items": {
+            "amount": "4 entries",
+            "entries": [
+                {
+                    "Associated Science and Development Distortion Repeater": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/324-Associated-Science-And-Development-Distortion-Repeater",
+                        "text": "Creation and implementation of new ship weapon."
+                    }
+                },
+                {
+                    "Klaus & Werner Demeco": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/322-Klaus-Werner-Demeco",
+                        "text": "Creation and implementation of new FPS weapon"
+                    }
+                },
+                {
+                    "Gemini F55": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/319-Gemini-F55",
+                        "text": "Creation and implementation of new FPS weapon"
+                    }
+                },
+                {
+                    "Kastak Arms Scalpel": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/314-Kastak-Arms-Scalpel",
+                        "text": "Creation and implementation of new FPS weapon"
+                    }
+                }
+            ]
+        },
+        "Core Tech": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Performance Optimization": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/297-Performance-Optimization",
+                        "text": "Ongoing performance improvements with specific quarterly goals to increase overall framerate among all PC specs"
+                    }
+                }
+            ]
+        }
+    },
+    "3.3": {
+        "status": "Released",
+        "date": "November 9, 2018",
+        "Characters": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Mission Giver: Recco Battaglia": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/383-Mission-Giver-Recco-Battaglia",
+                        "text": "Creation and implementation of a mission giver character"
+                    }
+                },
+                {
+                    "RSI Odyssey Flightsuit Rework": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/347-RSI-Odyssey-Flightsuit-Rework",
+                        "text": "Revising the existing RSI Flightsuit"
+                    }
+                }
+            ]
+        },
+        "Locations": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Small Rest Stops": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/342-Small-Rest-Stops",
+                        "text": "Implementing the base version of rest stop stations"
+                    }
+                }
+            ]
+        },
+        "AI": {
+            "amount": "5 entries",
+            "entries": [
+                {
+                    "Flight: Improved AI Behaviors": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/235-Flight-Improved-AI-Behaviors",
+                        "text": "Further improvements to Flight AI behaviors"
+                    }
+                },
+                {
+                    "FPS Combat: Movement Smoothing": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/229-FPS-Combat-Movement-Smoothing",
+                        "text": "Implementing smooth and appropriate movement animation"
+                    }
+                },
+                {
+                    "FPS Combat: First Reactions": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/228-FPS-Combat-First-Reactions",
+                        "text": "Implement initial reaction behaviors relating to FPS combat"
+                    }
+                },
+                {
+                    "FPS Combat: Multiple Enemy Combat Behaviors": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/227-FPS-Combat-Multiple-Enemy-Combat-Behaviors",
+                        "text": "Implementing Multiple Enemy Combat Behaviors for FPS Combat"
+                    }
+                },
+                {
+                    "FPS Combat: Search Behavior": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/226-FPS-Combat-Search-Behavior",
+                        "text": "Implement varying search behaviors"
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "12 entries",
+            "entries": [
+                {
+                    "Ship System Degradation": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/308-Ship-System-Degradation",
+                        "text": "Ship component functionality, allowing for upgrades as well as degradation"
+                    }
+                },
+                {
+                    "Scramble Race Missions": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/291-Scramble-Race-Missions",
+                        "text": "Designing and implementing Scramble Race missions"
+                    }
+                },
+                {
+                    "Improvements to Retrieval and Delivery missions": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/290-Improvements-To-Retrieval-And-Delivery-Missions",
+                        "text": "Improvements to Retrieval and Delivery Missions"
+                    }
+                },
+                {
+                    "FPS Combat: Missions": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/289-FPS-Combat-Missions",
+                        "text": "Implementing FPS AI for combat missions"
+                    }
+                },
+                {
+                    "Asteroid Mining": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/270-Asteroid-Mining",
+                        "text": "Adding the systems needed for a player to extract minerals from asteroids"
+                    }
+                },
+                {
+                    "Improvements to Mining on Planetary Bodies": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/269-Improvements-To-Mining-On-Planetary-Bodies",
+                        "text": "Improving surface mining on planetary bodies"
+                    }
+                },
+                {
+                    "Transit Systems": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/259-Transit-Systems",
+                        "text": "Improvement to Ingress/Egress Systems"
+                    }
+                },
+                {
+                    "Shipboard Ping & Scanning": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/261-Shipboard-Ping-Scanning",
+                        "text": "Extend Ping and Scanning to much larger distances and expand information received from Scanning vehicles"
+                    }
+                },
+                {
+                    "Arena Commander REC Rentals": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/234-Arena-Commander-REC-Rentals",
+                        "text": "Implementation of REC Rental in Arena Commander"
+                    }
+                },
+                {
+                    "Groups System Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/233-Groups-System-Improvements",
+                        "text": "Implement new mobiGlas and Visor Chat Systems Features and UI, and remove Legacy Group System and interface with new backend Chat Systems"
+                    }
+                },
+                {
+                    "Improvements to Manned and Remote Turrets on Vehicles": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/232-Improvements-To-Manned-And-Remote-Turrets-On-Vehicles",
+                        "text": "Further improvements to player-manned and remote turrets on vehicles including input controls and feature toggles"
+                    }
+                },
+                {
+                    "Item Kiosk Shopping Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/230-Item-Kiosk-Shopping-Improvements",
+                        "text": "Improvements to the Item Kiosks shopping experience"
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "11 entries",
+            "entries": [
+                {
+                    "Anvil Valkyrie": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/385-Anvil-Valkyrie",
+                        "text": "Implementing the Anvil Valkyrie into the game"
+                    }
+                },
+                {
+                    "Aegis Hammerhead": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/214-Aegis-Hammerhead",
+                        "text": "Implementing Aegis' capital support ship, the Hammerhead"
+                    }
+                },
+                {
+                    "Consolidated Outland Mustang Alpha": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/195-Consolidated-Outland-Mustang-Alpha",
+                        "text": "Implementing the revised version of the base Mustang into the game"
+                    }
+                },
+                {
+                    "Consolidated Outland Mustang Beta": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/220-Consolidated-Outland-Mustang-Beta",
+                        "text": "Implementing the revised version of the Mustang pathfinder into the game"
+                    }
+                },
+                {
+                    "Consolidated Outland Mustang Delta Revision": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/208-Consolidated-Outland-Mustang-Delta-Revision",
+                        "text": "Implementing the revised version of the Mustang fighter variant into the game"
+                    }
+                },
+                {
+                    " Consolidated Outland Mustang Gamma/Omega Revision": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/209-Consolidated-Outland-Mustang-Gamma-Omega-Revision",
+                        "text": "Implementing the revised version of the Mustang racing variants into the game"
+                    }
+                },
+                {
+                    "RSI Constellation Phoenix": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/204-RSI-Constellation-Phoenix",
+                        "text": "Implementing the revised Constellation Phoenix into the game"
+                    }
+                },
+                {
+                    "Tumbril Cyclone-AA": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/213-Tumbril-Cyclone-AA",
+                        "text": "Implementing the anti-aircraft variant of the Cyclone into the game"
+                    }
+                },
+                {
+                    "Tumbril Cyclone-RC": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/212-Tumbril-Cyclone-RC",
+                        "text": "Implementing the racing variant of the Cyclone into the game"
+                    }
+                },
+                {
+                    "Tumbril Cyclone-RN": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/194-Tumbril-Cyclone-RN",
+                        "text": "Implementing the reconnaissance variant of the Cyclone into the game"
+                    }
+                },
+                {
+                    "Tumbril Cyclone-TR": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/211-Tumbril-Cyclone-TR",
+                        "text": "Implementing the combat variant of the Cyclone into the game"
+                    }
+                }
+            ]
+        },
+        "Weapons and Items": {
+            "amount": "3 entries",
+            "entries": [
+                {
+                    "Kastak Arms Karna ": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/251-Kastak-Arms-Karna",
+                        "text": "Creation and implementation of a new FPS weapon"
+                    }
+                },
+                {
+                    "Hurston Dynamics Dominance Series": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/237-Hurston-Dynamics-Dominance-Series",
+                        "text": "Creation and implementation of the ship weapon"
+                    }
+                },
+                {
+                    "Hurston Dynamics Attrition Series": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/236-Hurston-Dynamics-Attrition-Series",
+                        "text": "Creation and implementation of the ship weapon"
+                    }
+                }
+            ]
+        },
+        "Core Tech": {
+            "amount": "8 entries",
+            "entries": [
+                {
+                    "Object Container Streaming": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/306-Object-Container-Streaming",
+                        "text": "Object Container Streaming considerably expands the playable game area and increases performance"
+                    }
+                },
+                {
+                    "Object Container Streaming: Background Spawning": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/288-Object-Container-Streaming-Background-Spawning",
+                        "text": "Allows entities to spawn from background threads without introducing stalls"
+                    }
+                },
+                {
+                    "Object Container Streaming: Asynchronous Background Spawning": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/315-Object-Container-Streaming-Asynchronous-Background-Spawning",
+                        "text": "Rework of game systems to move more spawning to the background to reduce stalls"
+                    }
+                },
+                {
+                    "Object Container Streaming: GameObjectExtensions Conversion": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/317-Object-Container-Streaming-GameObjectExtensions-Conversion",
+                        "text": "GameObjectExtensions conversions to improve performance"
+                    }
+                },
+                {
+                    "Object Container Streaming: Code Conversion": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/318-Object-Container-Streaming-Code-Conversion",
+                        "text": "Code conversion of legacy Lua to improve performance"
+                    }
+                },
+                {
+                    "Network Entity Streaming": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/328-Network-Entity-Streaming",
+                        "text": "Assisting Object Container Streaming for Multiplayer"
+                    }
+                },
+                {
+                    "Network Bind Culling": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/331-Network-Bind-Culling",
+                        "text": "Network code fixes to improve performance"
+                    }
+                },
+                {
+                    "VoIP & FoIP Integration": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/332-VoIP-FoIP-Integration",
+                        "text": "Add Voice Over IP to the Chat System and Face Over IP to the game"
+                    }
+                }
+            ]
+        }
+    },
+    "3.3.5": {
+        "status": "Released",
+        "date": "November 20, 2018",
+        "Characters": {
+            "amount": "3 entries",
+            "entries": [
+                {
+                    "Mission Giver: Clovus Darneely": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/348-Mission-Giver-Clovus-Darneely",
+                        "text": "Creation of the new Mission Giver, Clovus Darneely"
+                    }
+                },
+                {
+                    "Hurston Clothing Collection": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/343-Hurston-Clothing-Collection",
+                        "text": "Creating the Hurston costume sets"
+                    }
+                },
+                {
+                    "Virgil TrueDef-Pro Armor": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/345-Virgil-TrueDef-Pro-Armor",
+                        "text": "Creating the Virgil TrueDef-Pro armor set"
+                    }
+                }
+            ]
+        },
+        "Locations": {
+            "amount": "6 entries",
+            "entries": [
+                {
+                    "Hurston Planet": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/338-Hurston-Planet",
+                        "text": "Creating the planet Hurston"
+                    }
+                },
+                {
+                    "Lorville Landing Zone": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/341-Lorville-Landing-Zone",
+                        "text": "Creating the city of Lorville on Hurston"
+                    }
+                },
+                {
+                    "Hurston Moons: Aberdeen": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/376-Hurston-Moons-Aberdeen",
+                        "text": "Building and populating Aberdeen"
+                    }
+                },
+                {
+                    "Hurston Moons: Arial": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/381-Hurston-Moons-Arial",
+                        "text": "Building and populating Arial"
+                    }
+                },
+                {
+                    "Hurston Moons: Ita": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/379-Hurston-Moons-Ita",
+                        "text": "Building and populating Ita"
+                    }
+                },
+                {
+                    "Hurston Moons: Magda": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/380-Hurston-Moons-Magda",
+                        "text": "Building and populating Magda"
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "No-Fly Zones": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/231-No-Fly-Zones",
+                        "text": "Adding no-fly zones"
+                    }
+                }
+            ]
+        },
+        "Core Tech": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Performance Optimization": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/296-Performance-Optimization",
+                        "text": "Ongoing performance improvements with specific quarterly goals to increase overall framerate among all PC specs"
+                    }
+                }
+            ]
+        }
+    },
+    "3.4": {
+        "status": "Released",
+        "date": "December 20, 2018",
+        "Characters": {
+            "amount": "3 entries",
+            "entries": [
+                {
+                    "Mission Giver: Constantine Hurston": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/400-Mission-Giver-Constantine-Hurston",
+                        "text": "Creation and implementation of a mission giver character"
+                    }
+                },
+                {
+                    "Mission Giver: Wallace Klim": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/384-Mission-Giver-Wallace-Klim",
+                        "text": "Creation and implementation of a mission giver character"
+                    }
+                },
+                {
+                    "Shipjacker Armor": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/399-Shipjacker-Armor",
+                        "text": "Creating renegade outlaw armor pieces"
+                    }
+                }
+            ]
+        },
+        "Locations": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Lorville Business District": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/382-Lorville-Business-District",
+                        "text": "Creating Lorville's core Business District"
+                    }
+                }
+            ]
+        },
+        "AI": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "FPS Combat: Smooth Locomotion Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/243-FPS-Combat-Smooth-Locomotion-Improvements",
+                        "text": "Improving Smooth Locomotion for Combat AI"
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "7 entries",
+            "entries": [
+                {
+                    " Mining Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/398-Mining-Improvements",
+                        "text": "Improvements to Planetary and Asteroid Mining"
+                    }
+                },
+                {
+                    "Ship Item Rental": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/397-Ship-Item-Rental",
+                        "text": "Adding the ability to rent ship items"
+                    }
+                },
+                {
+                    "Patrol Mission Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/396-Patrol-Mission-Improvements",
+                        "text": "Improvements to Patrol Missions"
+                    }
+                },
+                {
+                    "VoIP & FoIP Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/391-VoIP-FoIP-Improvements",
+                        "text": "Improvements to VoIP & FoIP Functionality"
+                    }
+                },
+                {
+                    "Player Interaction Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/390-Player-Interaction-Improvements",
+                        "text": "Improvements to Player Interactions with objects"
+                    }
+                },
+                {
+                    "Scramble Race Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/388-Scramble-Race-Improvements",
+                        "text": "Adding Scramble Races to Hurston and its moons"
+                    }
+                },
+                {
+                    "Quantum Travel Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/364-Quantum-Travel-Improvements",
+                        "text": "Further Improvements to the Quantum Travel System"
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "6 entries",
+            "entries": [
+                {
+                    "Anvil Hawk": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/216-Anvil-Hawk",
+                        "text": "Implementing Anvil's\u00a0light fighter, the Hawk, into the game"
+                    }
+                },
+                {
+                    "Origin 600i Touring Module": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/363-Origin-600i-Touring-Module",
+                        "text": "Implementing the Origin 600i Touring variant into the game"
+                    }
+                },
+                {
+                    "MISC Freelancer MAX": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/198-MISC-Freelancer-MAX",
+                        "text": "Implementing the revised models of the Freelancer MAX into the game"
+                    }
+                },
+                {
+                    "MISC Freelancer DUR": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/197-MISC-Freelancer-DUR",
+                        "text": "Implementing the revised models of the Freelancer DUR into the game"
+                    }
+                },
+                {
+                    "MISC Freelancer MIS": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/196-MISC-Freelancer-MIS",
+                        "text": "Implementing the revised model of the MISC Freelancer MIS into the game"
+                    }
+                },
+                {
+                    "MISC Reliant Kore Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/358-MISC-Reliant-Kore-Improvements",
+                        "text": "Implementing the revised Reliant Kore into the game"
+                    }
+                }
+            ]
+        },
+        "Weapons and Items": {
+            "amount": "3 entries",
+            "entries": [
+                {
+                    "Kastak Arms Ravager-212 Twin": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/334-Kastak-Arms-Ravager-212-Twin",
+                        "text": "Creation and implementation of a new FPS weapon"
+                    }
+                },
+                {
+                    "Joker Engineering Suckerpunch Cannon Revision": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/313-Joker-Engineering-Suckerpunch-Cannon-Revision",
+                        "text": "Updating the ship weapon to latest version"
+                    }
+                },
+                {
+                    "Behring Sawbuck Repeater Revision": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/312-Behring-Sawbuck-Repeater-Revision",
+                        "text": "Implementing the revised version of the Sawbuck Repeater (S1-3) in-game"
+                    }
+                }
+            ]
+        },
+        "Core Tech": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Video Comm Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/395-Video-Comm-Improvements",
+                        "text": "Performance improvements to video-comms rendering"
+                    }
+                },
+                {
+                    "Performance Optimization": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/295-Performance-Optimization",
+                        "text": "Ongoing performance improvements with specific quarterly goals to increase overall framerate among all PC specs"
+                    }
+                }
+            ]
+        }
+    },
+    "3.5": {
+        "status": "Released",
+        "date": "April 17, 2019",
+        "Characters": {
+            "amount": "3 entries",
+            "entries": [
+                {
+                    "Mission Giver: Tecia Pacheco": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/535-Mission-Giver-Tecia-Pacheco",
+                        "text": "Creating and implementing a new mission giver"
+                    }
+                },
+                {
+                    "DNA Face Customization": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/373-DNA-Face-Customization",
+                        "text": "Comprehensive facial customization for characters"
+                    }
+                },
+                {
+                    "Playable Female Characters": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/310-Playable-Female-Characters",
+                        "text": "Adding female playable characters and NPCs"
+                    }
+                }
+            ]
+        },
+        "Locations": {
+            "amount": "4 entries",
+            "entries": [
+                {
+                    "ArcCorp Planet": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/339-ArcCorp-Planet",
+                        "text": "Building and populating ArcCorp"
+                    }
+                },
+                {
+                    "ArcCorp Moon: Lyria": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/378-ArcCorp-Moon-Lyria",
+                        "text": "Building and populating Lyria"
+                    }
+                },
+                {
+                    "ArcCorp Moon: Wala": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/377-ArcCorp-Moon-Wala",
+                        "text": "Building and populating Wala"
+                    }
+                },
+                {
+                    "Area18 Landing Zone": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/336-Area18-Landing-Zone",
+                        "text": "Building and populating ArcCorp's landing zone, Area18"
+                    }
+                }
+            ]
+        },
+        "AI": {
+            "amount": "4 entries",
+            "entries": [
+                {
+                    "FPS: Collision Avoidance v2": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/577-FPS-Collision-Avoidance-V2",
+                        "text": "Integrating AI collision avoidance and locomotion systems so NPCs no longer need to leave their paths in order to avoid obstacles, players, and other NPCs."
+                    }
+                },
+                {
+                    "Basic Gunship Behavior ": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/548-Basic-Gunship-Behavior",
+                        "text": "Improvements to enable gunship crews to make better use of turrets and gimbal weapons"
+                    }
+                },
+                {
+                    "Ship AI: Flight Model Update": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/534-Ship-AI-Flight-Model-Update",
+                        "text": "Adapting ship AI to the revised flight model"
+                    }
+                },
+                {
+                    "Ship AI: Combat Behaviour Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/516-Ship-AI-Combat-Behaviour-Improvements",
+                        "text": "Various improvements to make combat against AI ships more challenging"
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "15 entries",
+            "entries": [
+                {
+                    "Star Marine: Demien Comms & Quality of Life Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/646-Star-Marine-Demien-Comms-Quality-Of-Life-Improvements",
+                        "text": "A collection of new content, features, and bug fixes designed to improve the Star Marine experience"
+                    }
+                },
+                {
+                    "System: Heat": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/533-System-Heat",
+                        "text": "Improving the current heat system to support systemic gameplay and customization"
+                    }
+                },
+                {
+                    "AI Bounty Hunting in Environmental Missions": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/529-AI-Bounty-Hunting-In-Environmental-Missions",
+                        "text": "Implementing Environmental Missions where AI can police unlawful players"
+                    }
+                },
+                {
+                    "Vehicle Scanning HUD Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/528-Vehicle-Scanning-HUD-Improvements",
+                        "text": "Implementation of scanning and ping features into the vehicle HUD"
+                    }
+                },
+                {
+                    "AI Distress Beacons": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/527-AI-Distress-Beacons",
+                        "text": "Implementing a Combat Assistance Service Beacon mission"
+                    }
+                },
+                {
+                    "Vehicle Radar v2": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/526-Vehicle-Radar-V2",
+                        "text": "Vehicle radar system updates to support environmental impacts"
+                    }
+                },
+                {
+                    "Quantum Travel Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/525-Quantum-Travel-Improvements",
+                        "text": "Further improvements to the Quantum Travel system"
+                    }
+                },
+                {
+                    "Vehicle Scanning Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/524-Vehicle-Scanning-Improvements",
+                        "text": "Updates to the Scanning system, adding the ability to create and detect false signatures"
+                    }
+                },
+                {
+                    "Ship System: Degradation Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/523-Ship-System-Degradation-Improvements",
+                        "text": "Ship component degradation improvements and persistence "
+                    }
+                },
+                {
+                    "Vehicle Tech Updates v1": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/522-Vehicle-Tech-Updates-V1",
+                        "text": "Vehicle implementation improvements"
+                    }
+                },
+                {
+                    "Groups System Improvements v4": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/521-Groups-System-Improvements-V4",
+                        "text": "Further Improvements to the Groups System"
+                    }
+                },
+                {
+                    "VOIP & FOIP Improvements v3": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/520-VOIP-FOIP-Improvements-V3",
+                        "text": "Further improvements to VOIP and FOIP"
+                    }
+                },
+                {
+                    "Distortion Damage Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/518-Distortion-Damage-Improvements",
+                        "text": "Enabling Distortion damage to work whether used on weapons or on the environment"
+                    }
+                },
+                {
+                    "Gimbal Weapon Improvements v1": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/517-Gimbal-Weapon-Improvements-V1",
+                        "text": "Improvements to the ship combat system through automated gimbal mounts"
+                    }
+                },
+                {
+                    "Extending Delivery Missions to ArcCorp": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/515-Extending-Delivery-Missions-To-ArcCorp",
+                        "text": "Improving Delivery Missions and extending them to ArcCorp"
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "9 entries",
+            "entries": [
+                {
+                    "Ursa Rover Fortuna": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/644-Ursa-Rover-Fortuna",
+                        "text": "Implementing the Ursa Rover Fortuna into the game"
+                    }
+                },
+                {
+                    "Anvil Hornet F7C-M Heartseeker": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/643-Anvil-Hornet-F7C-M-Heartseeker",
+                        "text": "Implementing the Hornet F7C-M Heartseeker variant into the game"
+                    }
+                },
+                {
+                    "Origin 300i Rework": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/199-Origin-300i-Rework",
+                        "text": "Implementing the revised 300i into the game"
+                    }
+                },
+                {
+                    "Origin 315p Rework": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/361-Origin-315p-Rework",
+                        "text": "Implementing the revised 315p into the game"
+                    }
+                },
+                {
+                    "Origin 325a Rework": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/360-Origin-325a-Rework",
+                        "text": "Implementing the revised 325a into the game"
+                    }
+                },
+                {
+                    "Origin 350R Rework": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/359-Origin-350R-Rework",
+                        "text": "Implementing the revised 350R into the game"
+                    }
+                },
+                {
+                    "MISC Reliant Tana": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/219-MISC-Reliant-Tana",
+                        "text": "Implementing the combat variant of the Reliant into the game"
+                    }
+                },
+                {
+                    "MISC Reliant Sen": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/218-MISC-Reliant-Sen",
+                        "text": "Implementing the research variant of the Reliant into the game"
+                    }
+                },
+                {
+                    "MISC Reliant Mako": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/217-MISC-Reliant-Mako",
+                        "text": "Implementing the media variant of the Reliant into the game"
+                    }
+                }
+            ]
+        },
+        "Weapons and Items": {
+            "amount": "4 entries",
+            "entries": [
+                {
+                    "Banu Singe Tachyon Cannon": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/531-Banu-Singe-Tachyon-Cannon",
+                        "text": "Creation and implementation of a new Ship weapon"
+                    }
+                },
+                {
+                    "Gemini S71": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/250-Gemini-S71",
+                        "text": "Creation and implementation of a new FPS weapon"
+                    }
+                },
+                {
+                    "Gallenson Tactical Systems GT-870 Tarantula Revision": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/249-Gallenson-Tactical-Systems-GT-870-Tarantula-Revision",
+                        "text": "Updating the ship weapon to latest version"
+                    }
+                },
+                {
+                    "Kastak Arms Coda": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/248-Kastak-Arms-Coda",
+                        "text": "Creation and implementation of a new FPS weapon"
+                    }
+                }
+            ]
+        },
+        "Core Tech": {
+            "amount": "6 entries",
+            "entries": [
+                {
+                    "DebugGUI / In-Engine Debugging Tools": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/829-DebugGUI-In-Engine-Debugging-Tools",
+                        "text": ""
+                    }
+                },
+                {
+                    "Network OCS Stall Fixes": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/530-Network-OCS-Stall-Fixes",
+                        "text": "Fixing network-related processing stalls"
+                    }
+                },
+                {
+                    "New Flight Model": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/393-New-Flight-Model",
+                        "text": "Implementation of a fully revised and improved flight model"
+                    }
+                },
+                {
+                    "Projectile Manager": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/371-Projectile-Manager",
+                        "text": "Performance improvements of ship and FPS weapon projectiles in preparation for larger battles"
+                    }
+                },
+                {
+                    "Hard Surface Shader Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/368-Hard-Surface-Shader-Improvements",
+                        "text": "Improvements to Hard Surface Shader to allow greater detail on man-made objects"
+                    }
+                },
+                {
+                    "Performance Optimization": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/245-Performance-Optimization",
+                        "text": "Ongoing performance improvements with specific quarterly goals to increase overall framerate among all PC specs"
+                    }
+                }
+            ]
+        }
+    },
+    "3.6": {
+        "status": "Released",
+        "date": "July 19, 2019",
+        "Locations": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Rest Stop Space Stations: Exterior Variations": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/585-Rest-Stop-Space-Stations-Exterior-Variations",
+                        "text": "Expanding and implementing exterior variants of Rest Stop space stations"
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "12 entries",
+            "entries": [
+                {
+                    "Ship Purchasing Kiosk": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/672-Ship-Purchasing-Kiosk",
+                        "text": "Ability for players to buy ships from a kiosk"
+                    }
+                },
+                {
+                    "Black Market Economy": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/669-Black-Market-Economy",
+                        "text": "Security forces and shops will be able to identify stolen and illicit goods"
+                    }
+                },
+                {
+                    "Hover Mode": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/649-Hover-Mode",
+                        "text": "Implementation of a hover mode for ships in gravity that makes special use of VTOL thrusters"
+                    }
+                },
+                {
+                    "Weapon Attachments": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/619-Weapon-Attachments",
+                        "text": "Implementation of player customization for personal weapons"
+                    }
+                },
+                {
+                    "Player Free Look": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/615-Player-Free-Look",
+                        "text": "Giving players greater control of their view"
+                    }
+                },
+                {
+                    "Ragdoll Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/614-Ragdoll-Improvements",
+                        "text": "Improved articulated entity simulations"
+                    }
+                },
+                {
+                    "Player Jump v2": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/613-Player-Jump-V2",
+                        "text": "Improvements to the jump mechanic"
+                    }
+                },
+                {
+                    "Ship System: Degradation Improvements v2": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/611-Ship-System-Degradation-Improvements-V2",
+                        "text": "Improvements to degradation gameplay "
+                    }
+                },
+                {
+                    "System: Misfires": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/575-System-Misfires",
+                        "text": "Adding misfire events which can cause items to perform unexpectedly"
+                    }
+                },
+                {
+                    "Player Carriables v2": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/564-Player-Carriables-V2",
+                        "text": "Improvements to how the player picks up and carries items"
+                    }
+                },
+                {
+                    "Transit Systems v2": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/554-Transit-Systems-V2",
+                        "text": "Improvement to ingress & egress systems"
+                    }
+                },
+                {
+                    "Law System v1": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/366-Law-System-V1",
+                        "text": "System allowing areas to be associated with specific laws that security will enforce"
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "5 entries",
+            "entries": [
+                {
+                    "Anvil Ballista": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/674-Anvil-Ballista",
+                        "text": "Implementing the Anvil Ballista into the game"
+                    }
+                },
+                {
+                    "AEGIS Vanguard Warden Update": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/540-AEGIS-Vanguard-Warden-Update",
+                        "text": "Implementing the revised version of the Vanguard Warden into the game"
+                    }
+                },
+                {
+                    "Kruger Intergalactic P-72 Archimedes": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/362-Kruger-Intergalactic-P-72-Archimedes",
+                        "text": "Adding Kruger Intergalactic's snub craft, the P-72 Archimedes"
+                    }
+                },
+                {
+                    "Origin 890 Jump": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/215-Origin-890-Jump",
+                        "text": "Implementing the Origin 890 into the game"
+                    }
+                },
+                {
+                    "Kruger P52 Merlin Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/356-Kruger-P52-Merlin-Improvements",
+                        "text": "Implementing the revised version of the P52 Merlin into the game"
+                    }
+                }
+            ]
+        },
+        "Weapons and Items": {
+            "amount": "3 entries",
+            "entries": [
+                {
+                    "Behring S38 Pistol": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/581-Behring-S38-Pistol",
+                        "text": "Creation and implementation of the new FPS weapon"
+                    }
+                },
+                {
+                    "MaxOx Neutron Repeaters": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/323-MaxOx-Neutron-Repeaters",
+                        "text": "Creation and implementation of the new ship weapon"
+                    }
+                },
+                {
+                    "Klaus & Werner Lumin V": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/247-Klaus-Werner-Lumin-V",
+                        "text": "Creation and implementation of the new FPS weapon"
+                    }
+                }
+            ]
+        },
+        "Core Tech": {
+            "amount": "5 entries",
+            "entries": [
+                {
+                    "Client to Server Actor Networking Rework": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/631-Client-To-Server-Actor-Networking-Rework",
+                        "text": "Network improvements to better communicate player actions from the client to the server"
+                    }
+                },
+                {
+                    "Asynchronous Disconnection Refactor": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/532-Asynchronous-Disconnection-Refactor",
+                        "text": "A refactor that solves multiple issues and bugs through code efficiency"
+                    }
+                },
+                {
+                    "Distribution and Ecosystem Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/610-Distribution-And-Ecosystem-Improvements",
+                        "text": "Distribution and ecosystem pipeline improvements"
+                    }
+                },
+                {
+                    "Harvestable Entity Spawning": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/561-Harvestable-Entity-Spawning",
+                        "text": "Automated system enabling the spawning of harvestable entities "
+                    }
+                },
+                {
+                    "Performance Optimization": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/224-Performance-Optimization",
+                        "text": "Ongoing performance improvements with specific quarterly goals to increase overall framerate among all PC specs"
+                    }
+                }
+            ]
+        }
+    },
+    "3.7": {
+        "status": "Released",
+        "date": "October 11, 2019",
+        "Characters": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "MacFlex \"Rucksack\" Core": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/699-MacFlex-Rucksack-Core",
+                        "text": "Creating a wearable torso piece that supports commodity inventory."
+                    }
+                },
+                {
+                    "Character Customization System v2": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/670-Character-Customization-System-V2",
+                        "text": "Implementation of updates to the character customization system"
+                    }
+                }
+            ]
+        },
+        "Locations": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Star Marine Map: The Good Doctor ": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/695-Star-Marine-Map-The-Good-Doctor",
+                        "text": "The design, creation and implementation of the Star Marine map: The Good Doctor"
+                    }
+                },
+                {
+                    "Caves (Rocky)": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/691-Caves-Rocky",
+                        "text": "Creating assets for underground passages on planets and moons"
+                    }
+                }
+            ]
+        },
+        "AI": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Human AI Combat v2": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/688-Human-AI-Combat-V2",
+                        "text": "Improving the player PvE experience by implementing a more modular combat behavior"
+                    }
+                },
+                {
+                    "AI Dogfight Combat v2": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/684-AI-Dogfight-Combat-V2",
+                        "text": "Implementation of improved target selection and AI skills differentiation"
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "10 entries",
+            "entries": [
+                {
+                    "Quantum Enforcement v1": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/698-Quantum-Enforcement-V1",
+                        "text": "The ability for players to interdict AI or player-piloted ships, pulling them out of Quantum Travel"
+                    }
+                },
+                {
+                    "Glowstick V1": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/697-Glowstick-V1",
+                        "text": "N/A"
+                    }
+                },
+                {
+                    "FPS Mining": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/686-FPS-Mining",
+                        "text": "Allows players to use a multi-tool to mine small deposits while on foot or EVA."
+                    }
+                },
+                {
+                    "Mission Sharing": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/679-Mission-Sharing",
+                        "text": "Tech to allow for mission and reward sharing among friends"
+                    }
+                },
+                {
+                    "Personal Commodity Inventory": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/681-Personal-Commodity-Inventory",
+                        "text": "Personal inventory for storing commodities and resources"
+                    }
+                },
+                {
+                    "Harvestables": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/690-Harvestables",
+                        "text": "Items that can be collected by the player from the environment"
+                    }
+                },
+                {
+                    "Arena Commander:  Pirate Swarm Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/694-Arena-Commander-Pirate-Swarm-Improvements",
+                        "text": "Updates and Improvements to the Arena Commander Pirate Swarm Mode"
+                    }
+                },
+                {
+                    "Ship Rentals": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/617-Ship-Rentals",
+                        "text": "Ability for players to rent ships in-game"
+                    }
+                },
+                {
+                    "IFCS Proximity Assist": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/678-IFCS-Proximity-Assist",
+                        "text": "An IFCS feature that helps flying near objects by slowing down accelerations dynamically"
+                    }
+                },
+                {
+                    "Weapon Attachments v2": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/683-Weapon-Attachments-V2",
+                        "text": "Implementation of player customization for personal weapons"
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "5 entries",
+            "entries": [
+                {
+                    "Anvil Pisces": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/710-Anvil-Pisces",
+                        "text": "Implementing the Pisces and its variant into the game"
+                    }
+                },
+                {
+                    "RSI Mantis": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/696-RSI-Mantis",
+                        "text": "Implementing the RSI Mantis into the game"
+                    }
+                },
+                {
+                    "AEGIS Vanguard Harbinger": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/547-AEGIS-Vanguard-Harbinger",
+                        "text": "Implementing the Vanguard Harbinger"
+                    }
+                },
+                {
+                    "AEGIS Vanguard Sentinel": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/546-AEGIS-Vanguard-Sentinel",
+                        "text": "Implementing the Vanguard Sentinel"
+                    }
+                },
+                {
+                    "Banu Defender": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/221-Banu-Defender",
+                        "text": "Implementing the Banu Defender into the game"
+                    }
+                }
+            ]
+        },
+        "Weapons and Items": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Hedeby Salvo Frag Pistol": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/579-Hedeby-Salvo-Frag-Pistol",
+                        "text": "Creation and implementation of the new FPS weapon"
+                    }
+                },
+                {
+                    "Kroneg FL-33 Laser Cannon": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/578-Kroneg-FL-33-Laser-Cannon",
+                        "text": "Creation and implementation of the new ship weapon"
+                    }
+                }
+            ]
+        },
+        "Core Tech": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Performance Optimization": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/556-Performance-Optimization",
+                        "text": "Performance improvements to increase framerates across all PC specs"
+                    }
+                }
+            ]
+        }
+    },
+    "3.8": {
+        "status": "Released",
+        "date": "December 21, 2019",
+        "Locations": {
+            "amount": "3 entries",
+            "entries": [
+                {
+                    "microTech Planet": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/638-MicroTech-Planet",
+                        "text": "Building and populating microTech"
+                    }
+                },
+                {
+                    "New Babbage Landing Zone - Exteriors": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/637-New-Babbage-Landing-Zone-Exteriors",
+                        "text": "Building and populating microTech's landing zone, New Babbage"
+                    }
+                },
+                {
+                    "Rest Stop Space Station: Interior Variants": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/584-Rest-Stop-Space-Station-Interior-Variants",
+                        "text": "Implementing the expansion of interior modules and archetypes"
+                    }
+                }
+            ]
+        },
+        "AI": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Ship AI: 3D Pathfinding v2": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/630-Ship-AI-3D-Pathfinding-V2",
+                        "text": "Adding the ability for spaceships to efficiently navigate space using physics grids"
+                    }
+                },
+                {
+                    "Advanced Gunship Defensive Maneuvers": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/633-Advanced-Gunship-Defensive-Maneuvers",
+                        "text": "Implementation and balancing of defensive maneuvers for reacting to incoming heavy fire"
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "7 entries",
+            "entries": [
+                {
+                    "Vehicle Look Ahead Camera": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/706-Vehicle-Look-Ahead-Camera",
+                        "text": "Revised look ahead camera implementation"
+                    }
+                },
+                {
+                    "Vehicle Third Person Camera": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/704-Vehicle-Third-Person-Camera",
+                        "text": "Improved third person camera for vehicles"
+                    }
+                },
+                {
+                    "Rescue Hijacked 890 Jump": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/703-Rescue-Hijacked-890-Jump",
+                        "text": "A new mission on an 890 Jump that has been hijacked by ship-jackers intent on hacking into the ships computer"
+                    }
+                },
+                {
+                    "Law System v2: Fines": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/702-Law-System-V2-Fines",
+                        "text": "Players able to pay off their fines at a terminal in their own time"
+                    }
+                },
+                {
+                    "Mining Heads": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/701-Mining-Heads",
+                        "text": "More variations of mining lasers to allow the player to choose how they want to approach the mining process."
+                    }
+                },
+                {
+                    "Annunciator Panels": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/680-Annunciator-Panels",
+                        "text": "Ship UI Panels that show critical information about on-board systems"
+                    }
+                },
+                {
+                    "FPS: Close Combat ": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/566-FPS-Close-Combat",
+                        "text": "Implementation of close combat mechanics"
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "3 entries",
+            "entries": [
+                {
+                    "ARGO Mole": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/709-ARGO-Mole",
+                        "text": "Implementing the Mole into the game"
+                    }
+                },
+                {
+                    "Anvil Carrack": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/594-Anvil-Carrack",
+                        "text": "Implementing the Anvil Carrack into the game"
+                    }
+                },
+                {
+                    "Drake Cutlass Red": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/542-Drake-Cutlass-Red",
+                        "text": "Implementing the Cutlass Red into the game. "
+                    }
+                }
+            ]
+        },
+        "Weapons and Items": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Apocalypse Arms Animus Missile Launcher": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/582-Apocalypse-Arms-Animus-Missile-Launcher",
+                        "text": "Creation and implementation of the new FPS weapon"
+                    }
+                },
+                {
+                    "Behring P6-LR Ballistic Sniper Rifle": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/651-Behring-P6-LR-Ballistic-Sniper-Rifle",
+                        "text": "Creation and implementation of a new FPS weapon"
+                    }
+                }
+            ]
+        },
+        "Core Tech": {
+            "amount": "5 entries",
+            "entries": [
+                {
+                    "Planetary Weather Effects": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/712-Planetary-Weather-Effects",
+                        "text": "Implementation of a new planet effect type"
+                    }
+                },
+                {
+                    "Server-side Object Container Streaming (SOCS)": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/711-Server-Side-Object-Container-Streaming-SOCS",
+                        "text": "Streaming of Object Containers on the Server for reduced server load."
+                    }
+                },
+                {
+                    "Planet Tech V4": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/705-Planet-Tech-V4",
+                        "text": "New planetary improvements"
+                    }
+                },
+                {
+                    "Atmosphere Tech Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/557-Atmosphere-Tech-Improvements",
+                        "text": "Improvements to the atmosphere "
+                    }
+                },
+                {
+                    "Performance Optimization": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/596-Performance-Optimization",
+                        "text": "Performance improvements to increase framerates across all PC specs"
+                    }
+                }
+            ]
+        }
+    },
+    "3.9": {
+        "status": "Released",
+        "date": "April 29, 2020",
+        "Characters": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Prison Uniform": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/708-Prison-Uniform",
+                        "text": "Creating a uniform for Players to wear while incarcerated. "
+                    }
+                },
+                {
+                    "microTech Collection": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/640-MicroTech-Collection",
+                        "text": "Implementing clothing commonly worn by the citizens of microTech"
+                    }
+                }
+            ]
+        },
+        "Locations": {
+            "amount": "5 entries",
+            "entries": [
+                {
+                    "Klescher Automated Prison": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/707-Klescher-Automated-Prison",
+                        "text": "Creation and implementation of an automated prison facility into the game."
+                    }
+                },
+                {
+                    "New Babbage Landing Zone - Interiors": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/664-New-Babbage-Landing-Zone-Interiors",
+                        "text": "Implementing the first version of the New Babbage landing zone into the game"
+                    }
+                },
+                {
+                    "microTech Moon: Calliope": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/635-MicroTech-Moon-Calliope",
+                        "text": "Building and populating Calliope"
+                    }
+                },
+                {
+                    "microTech Moon: Clio": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/609-MicroTech-Moon-Clio",
+                        "text": "Building and populating Clio"
+                    }
+                },
+                {
+                    "microTech Moon: Euterpe": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/608-MicroTech-Moon-Euterpe",
+                        "text": "Building and populating Euterpe"
+                    }
+                }
+            ]
+        },
+        "AI": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Ship AI: 3D Navigation - Collision Avoidance": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/718-Ship-AI-3D-Navigation-Collision-Avoidance",
+                        "text": "Adding the ability for spaceships to efficiently avoid moving entities and obstacles."
+                    }
+                },
+                {
+                    "Ship AI: 3D Pathfinding - Planet Side": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/717-Ship-AI-3D-Pathfinding-Planet-Side",
+                        "text": "Adding the ability for AI-controlled spaceships to navigate in atmosphere."
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "5 entries",
+            "entries": [
+                {
+                    "Contacts List Refactor/Friends List Unification": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/739-Contacts-List-Refactor-Friends-List-Unification",
+                        "text": "We are unifying the player's Friends/Contacts list between Spectrum and the DGS so players can add friends in either location."
+                    }
+                },
+                {
+                    "Player Interaction System Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/723-Player-Interaction-System-Improvements",
+                        "text": "Improvements to the system that allows the player to interact with the game"
+                    }
+                },
+                {
+                    "Prison Missions": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/700-Prison-Missions",
+                        "text": "Designing and implementing missions set within in-game prisons."
+                    }
+                },
+                {
+                    "Player Status System v1": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/612-Player-Status-System-V1",
+                        "text": "Expansion of the core mechanics that track player status and well-being"
+                    }
+                },
+                {
+                    "Bounty Mission NPC Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/519-Bounty-Mission-NPC-Improvements",
+                        "text": "Improvements to bounty mission NPC behavior"
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Drake Cutlass Blue": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/742-Drake-Cutlass-Blue",
+                        "text": "Implementing the Cutlass Blue into the game"
+                    }
+                },
+                {
+                    "Esperia Prowler": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/593-Esperia-Prowler",
+                        "text": "Implementing the Prowler into the game"
+                    }
+                }
+            ]
+        },
+        "Core Tech": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Weather Locomotion": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/715-Weather-Locomotion",
+                        "text": "Improvements to character locomotion in inclement weather"
+                    }
+                },
+                {
+                    " Performance Optimization": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/648-Performance-Optimization",
+                        "text": "Performance improvements to increase framerates across all PC specs"
+                    }
+                }
+            ]
+        }
+    },
+    "3.10": {
+        "status": "Released",
+        "date": "August 5, 2020",
+        "Locations": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "New Babbage - Shop Additions": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/744-New-Babbage-Shop-Additions",
+                        "text": "Additional shop locations in New Babbage"
+                    }
+                },
+                {
+                    "GrimHEX Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/740-GrimHEX-Improvements",
+                        "text": "Improving the GrimHEX environment "
+                    }
+                }
+            ]
+        },
+        "AI": {
+            "amount": "3 entries",
+            "entries": [
+                {
+                    "FPS Combat: Weapon Types": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/583-FPS-Combat-Weapon-Types",
+                        "text": "The ability for the combat AI to engage the player using a wider arsenal of weaponry"
+                    }
+                },
+                {
+                    " FPS: Cover Usage v1 ": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/550-FPS-Cover-Usage-V1",
+                        "text": "The ability for NPCs to use environmental elements as partial cover when engaging an enemy"
+                    }
+                },
+                {
+                    "NPC Improvements: Bartender": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/553-NPC-Improvements-Bartender",
+                        "text": "Improvement of the bartender NPC to allow for additional behavior"
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "10 entries",
+            "entries": [
+                {
+                    "Player Trading": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/756-Player-Trading",
+                        "text": "Allowing players to send currency to each other for a minimal service fee"
+                    }
+                },
+                {
+                    "Law System v2: Impoundment Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/755-Law-System-V2-Impoundment-Improvements",
+                        "text": "Further improvements to vehicle impoundment"
+                    }
+                },
+                {
+                    "Electron Damage": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/754-Electron-Damage",
+                        "text": "Implementing a new weapon damage type"
+                    }
+                },
+                {
+                    "Turret and Gunnery Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/753-Turret-And-Gunnery-Improvements",
+                        "text": "Improving general turret and fixed gunnery gameplay."
+                    }
+                },
+                {
+                    "Thruster Efficiency Curves and Aerodynamics": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/748-Thruster-Efficiency-Curves-And-Aerodynamics",
+                        "text": "Implementing new ship aerodynamics and behaviors for thrusters in atmosphere"
+                    }
+                },
+                {
+                    "New Targeting Methodology": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/720-New-Targeting-Methodology",
+                        "text": "An updated method of targeting"
+                    }
+                },
+                {
+                    "Body Dragging ": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/722-Body-Dragging",
+                        "text": "Enabling a character to pull another prone character"
+                    }
+                },
+                {
+                    "High Speed Combat": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/719-High-Speed-Combat",
+                        "text": "Changing the way ship components behave at high speeds"
+                    }
+                },
+                {
+                    "Ship HUD Rework": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/721-Ship-HUD-Rework",
+                        "text": "Re-designing and rebuilding the ship HUD using our new Building Blocks UI tech"
+                    }
+                },
+                {
+                    "Restricted Area Rework": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/682-Restricted-Area-Rework",
+                        "text": "Vastly improving the behavior of restricted areas with a more natural, less obtrusive system"
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Kruger Intergalactic P-72 Archimedes Emerald": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/749-Kruger-Intergalactic-P-72-Archimedes-Emerald",
+                        "text": "Implementing the Kruger Intergalactic P-72 Archimedes Emerald into the game"
+                    }
+                },
+                {
+                    "Origin m50 Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/357-Origin-M50-Improvements",
+                        "text": "Implementing the revised m50 into the game"
+                    }
+                }
+            ]
+        },
+        "Weapons and Items": {
+            "amount": "4 entries",
+            "entries": [
+                {
+                    "Lightning Bolt Co. Atzkav Electron Sniper Rifle": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/714-Lightning-Bolt-Co-Atzkav-Electron-Sniper-Rifle",
+                        "text": "Creation and implementation of the new FPS weapon"
+                    }
+                },
+                {
+                    "Gemini C54 Ballistic SMG": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/713-Gemini-C54-Ballistic-SMG",
+                        "text": "Creation and implementation of new FPS weapon"
+                    }
+                },
+                {
+                    "Lightning Bolt Co. Yubarev Electron Pistol": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/650-Lightning-Bolt-Co-Yubarev-Electron-Pistol",
+                        "text": "Creation and implementation of new FPS weapon"
+                    }
+                },
+                {
+                    "Klaus & Werner Sledge Mass Driver Revision": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/603-Klaus-Werner-Sledge-Mass-Driver-Revision",
+                        "text": "Updating the ship weapon to latest version"
+                    }
+                }
+            ]
+        },
+        "Core Tech": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Ocean Shader Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/747-Ocean-Shader-Improvements",
+                        "text": "New shader features to improve the realism of oceans"
+                    }
+                },
+                {
+                    "Heightmap Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/743-Heightmap-Improvements",
+                        "text": "Planet heightmap improvements"
+                    }
+                }
+            ]
+        }
+    },
+    "3.11": {
+        "status": "Released",
+        "date": "October 8, 2020",
+        "Locations": {
+            "amount": "4 entries",
+            "entries": [
+                {
+                    "Repainting Existing Planets & Moons": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/769-Repainting-Existing-Planets-Moons",
+                        "text": "Repainting review for existing planets and moons to make them compatible with Planet Tech V4"
+                    }
+                },
+                {
+                    "Updated Ground Textures": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/768-Updated-Ground-Textures",
+                        "text": "Updated ground materials to use scanned data"
+                    }
+                },
+                {
+                    "Updated Geology": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/767-Updated-Geology",
+                        "text": "Updating our geology library to use the new organics shader."
+                    }
+                },
+                {
+                    "Space Station - Cargo Deck": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/738-Space-Station-Cargo-Deck",
+                        "text": "Implementing Cargo Decks into Rest Stops"
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "4 entries",
+            "entries": [
+                {
+                    "Relaxation of Armistice Restrictions": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/770-Relaxation-Of-Armistice-Restrictions",
+                        "text": "Ship combat is allowed in Armistice Zones, with new defenses to combat law-breakers"
+                    }
+                },
+                {
+                    "Force Reactions": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/766-Force-Reactions",
+                        "text": "Actors react to direct, indirect & sustained forces"
+                    }
+                },
+                {
+                    "Player & External Inventory": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/765-Player-External-Inventory",
+                        "text": "Manage the food, drink, mined rocks and harvested items stored on your person and in exterior storage"
+                    }
+                },
+                {
+                    "Improved Throw": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/731-Improved-Throw",
+                        "text": "Improving and unifying throw"
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "5 entries",
+            "entries": [
+                {
+                    "Consolidated Outland Nomad": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/786-Consolidated-Outland-Nomad",
+                        "text": "Implementing the CNOU Nomad into the game"
+                    }
+                },
+                {
+                    "Origin 100i ": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/752-Origin-100i",
+                        "text": "Implementing the Origin 100i series into the game"
+                    }
+                },
+                {
+                    "Origin 125a": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/750-Origin-125a",
+                        "text": "Implementing the Origin 125a series into the game"
+                    }
+                },
+                {
+                    "Origin 135c": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/751-Origin-135c",
+                        "text": "Implementing the Origin 135c series into the game"
+                    }
+                },
+                {
+                    "Mercury Star Runner": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/725-Mercury-Star-Runner",
+                        "text": "Implementing the Mercury Star Runner into the game"
+                    }
+                }
+            ]
+        },
+        "Weapons and Items": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Behring BR2 Ballistic Shotgun": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/762-Behring-BR2-Ballistic-Shotgun",
+                        "text": "Creation and implementation of the new FPS weapon"
+                    }
+                },
+                {
+                    "Behring GP-33 Grenade Launcher": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/580-Behring-GP-33-Grenade-Launcher",
+                        "text": "Creation and implementation of the new FPS weapon"
+                    }
+                }
+            ]
+        },
+        "Core Tech": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Ground Cover Buoyancy": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/757-Ground-Cover-Buoyancy",
+                        "text": "Introduction of buoyancy to bodies of water "
+                    }
+                }
+            ]
+        }
+    },
+    "3.12": {
+        "status": "Released",
+        "date": "December 17, 2020",
+        "Locations": {
+            "amount": "3 entries",
+            "entries": [
+                {
+                    "Stanton System Planetary Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/785-Stanton-System-Planetary-Improvements",
+                        "text": "Updating content utilising the latest tech and pipeline improvements"
+                    }
+                },
+                {
+                    "Stanton System Spacescaping": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/771-Stanton-System-Spacescaping",
+                        "text": "Introduce spacescaping elements to the lagrange points in the Stanton System"
+                    }
+                },
+                {
+                    "Space Stations - Refinery Decks": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/741-Space-Stations-Refinery-Decks",
+                        "text": " Implementing Refinery Decks into rest stops"
+                    }
+                }
+            ]
+        },
+        "AI": {
+            "amount": "4 entries",
+            "entries": [
+                {
+                    "AI Intercepting Torpedoes": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/779-AI-Intercepting-Torpedoes",
+                        "text": "AI turrets have been given the ability to intercept incoming torpedoes "
+                    }
+                },
+                {
+                    "AI Fire Mode Usage and Targeting Priorities": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/778-AI-Fire-Mode-Usage-And-Targeting-Priorities",
+                        "text": "Fire modes ensure that ship AI can charge weapons, use varying fire modes, and that turrets properly prioritize targeting "
+                    }
+                },
+                {
+                    "AI Accuracy Convergence ": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/777-AI-Accuracy-Convergence",
+                        "text": "Ship and Turret AI's Accuracy System now based on Convergence"
+                    }
+                },
+                {
+                    "Capital Ship Combat Behavior Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/776-Capital-Ship-Combat-Behavior-Improvements",
+                        "text": "Improved AI behavior for capital ship pilots"
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "11 entries",
+            "entries": [
+                {
+                    "Reputation V1 - Reputation and Org Service": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/784-Reputation-V1-Reputation-And-Org-Service",
+                        "text": "Introducing the first iteration of persistent reputation, as well as NPC organizations."
+                    }
+                },
+                {
+                    "Landing Services Update - Ordnance Replenishment": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/783-Landing-Services-Update-Ordnance-Replenishment",
+                        "text": "Missiles, Countermeasures and Flares are now replenished through the shopping system/service"
+                    }
+                },
+                {
+                    "Mining UI Refactor ": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/782-Mining-UI-Refactor",
+                        "text": "Updating/Implementing Mining UI into the building blocks system "
+                    }
+                },
+                {
+                    "Counter Measures v1.1": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/781-Counter-Measures-V11",
+                        "text": "Improvements that gives the player more control over deploying countermeasures, and make the amount fired meaningful"
+                    }
+                },
+                {
+                    "Torpedo Attack, Counter-Balance and Behavior ": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/780-Torpedo-Attack-Counter-Balance-And-Behavior",
+                        "text": "Torpedoes far more deadly on impact, but with increased vulnerability to ship defenses"
+                    }
+                },
+                {
+                    "Capital Ships, Turrets and Torpedoes VFX/SFX Improvements ": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/775-Capital-Ships-Turrets-And-Torpedoes-VFX-SFX-Improvements",
+                        "text": "VFX and SFX Improvements to Turrets, Torpedos and Capital Ship damage and deathmasks"
+                    }
+                },
+                {
+                    "Vehicle Entry Identification": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/772-Vehicle-Entry-Identification",
+                        "text": "Adding visual hints as to where vehicles can be entered when in proximity"
+                    }
+                },
+                {
+                    "Station-based Refining": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/760-Station-Based-Refining",
+                        "text": "Station-based kiosks that allow players to refine raw mixed materials into pure elements"
+                    }
+                },
+                {
+                    "Multi-Tool Tractor Beam Attachment ": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/759-Multi-Tool-Tractor-Beam-Attachment",
+                        "text": "Creation of the new multi-tool attachment and first implementation of the multi-tool tractor beam "
+                    }
+                },
+                {
+                    "Weapon Zeroing - T0": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/758-Weapon-Zeroing-T0",
+                        "text": "First implementation of weapon zeroing "
+                    }
+                },
+                {
+                    "Elevator Panel Updates": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/745-Elevator-Panel-Updates",
+                        "text": "Utilitarian elevator panels updates"
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Esperia Talon": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/764-Esperia-Talon",
+                        "text": "Implementing the Esperia Talon into the game"
+                    }
+                },
+                {
+                    "Esperia Talon Shrike": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/763-Esperia-Talon-Shrike",
+                        "text": "Implementing the Esperia Talon Shrike into the game"
+                    }
+                }
+            ]
+        },
+        "Weapons and Items": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Behring FS-9 LMG": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/774-Behring-FS-9-LMG",
+                        "text": "Creation and implementation of the new FPS weapon"
+                    }
+                },
+                {
+                    "Gemini A03 Sniper Rifle": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/773-Gemini-A03-Sniper-Rifle",
+                        "text": "Creation and implementation of the new FPS weapon"
+                    }
+                }
+            ]
+        }
+    },
+    "3.13": {
+        "status": "Released",
+        "date": "April 22nd, 2021",
+        "Locations": {
+            "amount": "4 entries",
+            "entries": [
+                {
+                    "Refinery Stations - Non-Commercial Overlays": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/800-Refinery-Stations-Non-Commercial-Overlays",
+                        "text": "Adding non-commercial entrances to refinery stations"
+                    }
+                },
+                {
+                    "Stanton System Polish": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/799-Stanton-System-Polish",
+                        "text": "Visual improvements to the Stanton system planets"
+                    }
+                },
+                {
+                    "New Asteroids - Stanton System": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/798-New-Asteroids-Stanton-System",
+                        "text": "Adding additional asteroid variations to the Stanton System"
+                    }
+                },
+                {
+                    "Cave Entrances - Drive-In & Sinkhole": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/797-Cave-Entrances-Drive-In-Sinkhole",
+                        "text": "Adding two new entrances to planetary caves"
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "13 entries",
+            "entries": [
+                {
+                    "Missions - Quantum-Sensitive Deliveries": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/845-Missions-Quantum-Sensitive-Deliveries",
+                        "text": "Implement missions that use quantum-sensitive cargo"
+                    }
+                },
+                {
+                    "Missions - Timed Multi-Drop Deliveries": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/844-Missions-Timed-Multi-Drop-Deliveries",
+                        "text": "Implement timed delivery missions with multiple drops and varied timers. "
+                    }
+                },
+                {
+                    "Shield Effects v2": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/843-Shield-Effects-V2",
+                        "text": "Implement a series of improvements to visual vehicle shield effects"
+                    }
+                },
+                {
+                    "Mining Sub-Components ": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/842-Mining-Sub-Components",
+                        "text": "Implementation of mining laser sub-components"
+                    }
+                },
+                {
+                    "UI - Reputation": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/841-UI-Reputation",
+                        "text": "Integrating data related to a player's reputation with NPCs and organizations into the UI."
+                    }
+                },
+                {
+                    "Missions - Spawn Closets ": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/823-Missions-Spawn-Closets",
+                        "text": "The initial implementation of \u2018spawn closets\u2019"
+                    }
+                },
+                {
+                    "Mounted Guns": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/796-Mounted-Guns",
+                        "text": "Ability to use mounted guns on vehicles"
+                    }
+                },
+                {
+                    "Force Reactions": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/795-Force-Reactions",
+                        "text": "Expanded reactions to direct, indirect & sustained forces"
+                    }
+                },
+                {
+                    "Vehicle Names and Serial Numbers": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/792-Vehicle-Names-And-Serial-Numbers",
+                        "text": "Displaying custom names and serial numbers on the sides of ships"
+                    }
+                },
+                {
+                    "Vehicle Visual Degradation": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/791-Vehicle-Visual-Degradation",
+                        "text": "Introducing visual wear-and-tear to player ships as they age and degrade"
+                    }
+                },
+                {
+                    "Merlin/Constellation Docking": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/789-Merlin-Constellation-Docking",
+                        "text": "Implementing the ability to dock the Merlin in the Constellation"
+                    }
+                },
+                {
+                    "Ship to Station Docking": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/623-Ship-To-Station-Docking",
+                        "text": "Implementing the ability to dock ships to space stations"
+                    }
+                },
+                {
+                    "Object Push & Pull ": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/730-Object-Push-Pull",
+                        "text": "Allow players to push and pull objects"
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "5 entries",
+            "entries": [
+                {
+                    "Greycat ROC-DS": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/848-Greycat-ROC-DS",
+                        "text": "Implementing the Greycat ROC-DS into the game"
+                    }
+                },
+                {
+                    "Tumbril Cyclone-MT": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/846-Tumbril-Cyclone-MT",
+                        "text": "Implementing the TUMBRIL Cyclone-MT into the game."
+                    }
+                },
+                {
+                    "Tumbril Nova": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/805-Tumbril-Nova",
+                        "text": "Implementing the Tumbril Nova into the game"
+                    }
+                },
+                {
+                    "Crusader M2 Hercules Starlifter": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/788-Crusader-M2-Hercules-Starlifter",
+                        "text": "All tasks required for the implementation of the Crusader M2 Hercules Starlifter military transporter"
+                    }
+                },
+                {
+                    "Crusader C2 Hercules Starlifter": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/787-Crusader-C2-Hercules-Starlifter",
+                        "text": "Implementing the Crusader Hercules Starlifter C2 into the game"
+                    }
+                }
+            ]
+        }
+    },
+    "3.14": {
+        "status": "Released",
+        "date": "August 6th, 2021",
+        "Locations": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Planet - Crusader": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/663-Planet-Crusader",
+                        "text": "The design, creation, and implementation of the Crusader gas giant"
+                    }
+                },
+                {
+                    "Orison Landing Zone": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/665-Orison-Landing-Zone",
+                        "text": "All tasks required to add Crusader\u2019s landing zone into the game"
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "5 entries",
+            "entries": [
+                {
+                    "Power Management v2": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/856-Power-Management-V2",
+                        "text": "Integration of the capacitor system and rebalance of all connected systems to accommodate"
+                    }
+                },
+                {
+                    "Radar, Scanning, and Ping": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/818-Radar-Scanning-And-Ping",
+                        "text": "Implementing Radar, Scanning, and Ping"
+                    }
+                },
+                {
+                    "Missiles - Guidance & Control Rework": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/794-Missiles-Guidance-Control-Rework",
+                        "text": "Convert missiles to use the IFCS guidance and control systems"
+                    }
+                },
+                {
+                    "Missile Operator Mode": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/728-Missile-Operator-Mode",
+                        "text": "Giving players the ability to select and fire specific missiles"
+                    }
+                },
+                {
+                    "Law System v2: Surrender": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/716-Law-System-V2-Surrender",
+                        "text": "Ability for criminals in ships to surrender to security rather than be killed"
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Canvas Sliced Ship HUDs": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/857-Canvas-Sliced-Ship-HUDs",
+                        "text": "Implementation of new Ship HUD's using the Canvas Slice system on all ships"
+                    }
+                },
+                {
+                    "RSI Constellation Taurus": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/200-RSI-Constellation-Taurus",
+                        "text": "Implementing the revised model of the Constellation Taurus into the game"
+                    }
+                }
+            ]
+        },
+        "Core Tech": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Planetary Volumetric Clouds v1": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/850-Planetary-Volumetric-Clouds-V1",
+                        "text": "First iteration of a new cloud rendering system"
+                    }
+                }
+            ]
+        }
+    },
+    "3.15": {
+        "status": "Released",
+        "date": "November 10th, 2021",
+        "Locations": {
+            "amount": "5 entries",
+            "entries": [
+                {
+                    "New Babbage Hospital": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/860-New-Babbage-Hospital",
+                        "text": "Hospital interior located in the New Babbage landing zone"
+                    }
+                },
+                {
+                    "GrimHex Clinic": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/863-GrimHex-Clinic",
+                        "text": "Clinic interior located in the GrimHex landing zone"
+                    }
+                },
+                {
+                    "Rest Stops: Space Station Clinics": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/862-Rest-Stops-Space-Station-Clinics",
+                        "text": "Clinic interior located in the various rest stops"
+                    }
+                },
+                {
+                    "Orison Hospital": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/861-Orison-Hospital",
+                        "text": "Hospital interior located in the Orison landing zone"
+                    }
+                },
+                {
+                    "Orison v2": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/833-Orison-V2",
+                        "text": "Adding more shops and services to the Orison landing zone"
+                    }
+                }
+            ]
+        },
+        "AI": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Doctor, Nurse AI Behaviors": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/874-Doctor-Nurse-AI-Behaviors",
+                        "text": "Adding more realistic behaviors and reactions for Doctors and Nurses"
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "10 entries",
+            "entries": [
+                {
+                    "Scoreboard UI Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/877-Scoreboard-UI-Improvements",
+                        "text": "Convert in-game scoreboards to work with Building Blocks"
+                    }
+                },
+                {
+                    "Updates - Broken Moon Map": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/872-Updates-Broken-Moon-Map",
+                        "text": "Improvements to the Broken Moon map"
+                    }
+                },
+                {
+                    "Infiltrate and Defend Missions": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/871-Infiltrate-And-Defend-Missions",
+                        "text": "Infiltrate and Defend missions using existing locations"
+                    }
+                },
+                {
+                    "Physical/Local Inventory Support": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/870-Physical-Local-Inventory-Support",
+                        "text": "Adjusting shops and VMA to support the required API changes for local/physical inventory"
+                    }
+                },
+                {
+                    "Asset Manager mobiGlas App ": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/869-Asset-Manager-MobiGlas-App",
+                        "text": "Adding the Asset Manager mobiGlas App to help players manage their belongings"
+                    }
+                },
+                {
+                    "Loot Generation T0": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/868-Loot-Generation-T0",
+                        "text": "Implementing the system responsible for the generation of lootable containers throughout the world"
+                    }
+                },
+                {
+                    "Actor Feature - Personal Inventory": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/819-Actor-Feature-Personal-Inventory",
+                        "text": "Implements the Personal Inventory for all usable and storable items. "
+                    }
+                },
+                {
+                    "Tech - Healing T0": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/815-Tech-Healing-T0",
+                        "text": "Creating the back-end technology required for Healing T0"
+                    }
+                },
+                {
+                    "Bombs": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/808-Bombs",
+                        "text": "Players will have the ability to drop powerful bombs on targets from ships in atmosphere"
+                    }
+                },
+                {
+                    "NPC Healing": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/569-NPC-Healing",
+                        "text": "Enables players to heal other players and NPCs"
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "7 entries",
+            "entries": [
+                {
+                    "Anvil Spartan": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/891-Anvil-Spartan",
+                        "text": "All tasks required for the implementation of the Anvil Spartan APC."
+                    }
+                },
+                {
+                    "Argo RAFT": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/890-Argo-RAFT",
+                        "text": "All tasks required for the implementation of the Argo RAFT cargo hauler."
+                    }
+                },
+                {
+                    "Origin 400i": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/878-Origin-400i",
+                        "text": "All tasks required for the implementation of the Origin 400i explorer."
+                    }
+                },
+                {
+                    "Aegis Redeemer": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/804-Aegis-Redeemer",
+                        "text": "All tasks required for the implementation of the Aegis Redeemer gunship"
+                    }
+                },
+                {
+                    "Crusader A2 Hercules Starlifter": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/803-Crusader-A2-Hercules-Starlifter",
+                        "text": "All tasks required for the implementation of the Crusader A2 Hercules Starlifter gunship"
+                    }
+                },
+                {
+                    "Crusader Ares Starfighter Ion": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/802-Crusader-Ares-Starfighter-Ion",
+                        "text": "Implementing the Crusader Ares Starfighter Ion into the game"
+                    }
+                },
+                {
+                    "Crusader Ares Starfighter Inferno": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/801-Crusader-Ares-Starfighter-Inferno",
+                        "text": "Implementing the Crusader Ares Starfighter Inferno into the game"
+                    }
+                }
+            ]
+        },
+        "Weapons and Items": {
+            "amount": "4 entries",
+            "entries": [
+                {
+                    "Behring S7 Ballistic Gatling": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/838-Behring-S7-Ballistic-Gatling",
+                        "text": "Creation and implementation of the new Behring S7 Ballistic Gatling ship weapon"
+                    }
+                },
+                {
+                    "Behring S7 Laser Cannon": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/837-Behring-S7-Laser-Cannon",
+                        "text": "Creation and implementation of the new Behring S7 Laser Cannon ship weapon"
+                    }
+                },
+                {
+                    "Curelife Medical Tool": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/836-Curelife-Medical-Tool",
+                        "text": "Create and implement a medical tool."
+                    }
+                },
+                {
+                    "Greycat Multi-tool Healing Attachment": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/835-Greycat-Multi-Tool-Healing-Attachment",
+                        "text": "Creation and implementation of the new multi-tool healing attachment"
+                    }
+                }
+            ]
+        }
+    },
+    "3.16": {
+        "status": "Released",
+        "date": "December 23rd, 2021",
+        "Locations": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Area 18 Hospital": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/864-Area-18-Hospital",
+                        "text": "Hospital interior located in the Area 18 landing zone"
+                    }
+                },
+                {
+                    "Derelict Spaceships - Points of Interest": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/881-Derelict-Spaceships-Points-Of-Interest",
+                        "text": "Derelict spaceships scattered on planets"
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "3 entries",
+            "entries": [
+                {
+                    "Updates - Dying Star Map": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/883-Updates-Dying-Star-Map",
+                        "text": "Improvements to the Dying Star map"
+                    }
+                },
+                {
+                    "Gravlev Physics Rework": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/884-Gravlev-Physics-Rework",
+                        "text": "A significant upgrade of gravlev handling and physics"
+                    }
+                },
+                {
+                    "Jumptown 2.0": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/892-Jumptown-20",
+                        "text": "Implementation of a new dynamic event into the persistent universe"
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Drake Cutlass Steel": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/893-Drake-Cutlass-Steel",
+                        "text": "All tasks required for the implementation of the Cutlass Steel dropship."
+                    }
+                },
+                {
+                    "Consolidated Outland HoverQuad": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/894-Consolidated-Outland-HoverQuad",
+                        "text": "All tasks required for the implementation of the Consolidated Outland HoverQuad."
+                    }
+                }
+            ]
+        },
+        "Weapons and Items": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Laser Trip Mine T0": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/875-Laser-Trip-Mine-T0",
+                        "text": "Implementing laser trip mines into the game"
+                    }
+                }
+            ]
+        }
+    },
+    "3.17": {
+        "status": "Released",
+        "date": "April 29, 2022",
+        "Characters": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "DNA Head Textures Update": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/885-DNA-Head-Textures-Update",
+                        "text": "Art updates for DNA archetype heads"
+                    }
+                }
+            ]
+        },
+        "Locations": {
+            "amount": "5 entries",
+            "entries": [
+                {
+                    "Colonialism Outposts - Derelict": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/911-Colonialism-Outposts-Derelict",
+                        "text": "Derelict versions of Colonialism Outposts scattered throughout Stanton. "
+                    }
+                },
+                {
+                    "Additional Stanton Lagrange Points": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/909-Additional-Stanton-Lagrange-Points",
+                        "text": "Adding new lagrange points around microTech and ArcCorp"
+                    }
+                },
+                {
+                    "Derelict Reclaimer Settlement - Point of Interest": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/902-Derelict-Reclaimer-Settlement-Point-Of-Interest",
+                        "text": "Settlement point of interest in Stanton built out of a derelict Reclaimer"
+                    }
+                },
+                {
+                    "Space Station Clinics: Variations": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/897-Space-Station-Clinics-Variations",
+                        "text": "Additional modules to add variety to existing space clinics"
+                    }
+                },
+                {
+                    "Lorville Hospital: Maria Pure of Heart": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/865-Lorville-Hospital-Maria-Pure-Of-Heart",
+                        "text": "Hospital interior located in the Lorville landing zone"
+                    }
+                }
+            ]
+        },
+        "AI": {
+            "amount": "3 entries",
+            "entries": [
+                {
+                    "AI - Planetary Navigation": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/904-AI-Planetary-Navigation",
+                        "text": "System that allows NPCs to move on the planetary surface."
+                    }
+                },
+                {
+                    "AI - Dropships and Reinforcements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/912-AI-Dropships-And-Reinforcements",
+                        "text": "Enable AI ships to land and deliver reinforcements on non-structured ground"
+                    }
+                },
+                {
+                    "Coffee Shop Vendor": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/895-Coffee-Shop-Vendor",
+                        "text": "Adding the \u2018Vendor\u2019 behavior to the Coffee shop in Area 18."
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "6 entries",
+            "entries": [
+                {
+                    "Derelict Reclaimer Space Missions": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/910-Derelict-Reclaimer-Space-Missions",
+                        "text": "New missions added to Stanton in space surrounding derelict Reclaimers."
+                    }
+                },
+                {
+                    "Siege of Orison": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/908-Siege-Of-Orison",
+                        "text": "Implementation of a new dynamic event in the persistent universe."
+                    }
+                },
+                {
+                    "Illegal Delivery Missions": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/903-Illegal-Delivery-Missions",
+                        "text": "Illegal variants of delivery missions"
+                    }
+                },
+                {
+                    "Selling Items To Shops": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/886-Selling-Items-To-Shops",
+                        "text": "Adding the \"Sell\" screen to item kiosks and converting them to Building Blocks Tech"
+                    }
+                },
+                {
+                    "Ship to Ship Refueling": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/882-Ship-To-Ship-Refueling",
+                        "text": "Implementing refueling capability to specifically equipped ships"
+                    }
+                },
+                {
+                    "Mining Gadgets": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/880-Mining-Gadgets",
+                        "text": "Implementing new gadgets that can be placed on a ship-mineable rock that makes the rock easier to mine."
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "8 entries",
+            "entries": [
+                {
+                    "Anvil C8R Pisces": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/930-Anvil-C8R-Pisces",
+                        "text": "All tasks required for the implementation of the Anvil C8R Pisces ambulance."
+                    }
+                },
+                {
+                    "Drake Cutter": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/929-Drake-Cutter",
+                        "text": "All tasks required for the implementation of the Drake Cutter starter ship."
+                    }
+                },
+                {
+                    "Greycat STV": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/926-Greycat-STV",
+                        "text": "All tasks required for the implementation of the Greycat STV ground vehicle."
+                    }
+                },
+                {
+                    "Drake Corsair": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/925-Drake-Corsair",
+                        "text": "All tasks required for the implementation of the Corsair multi-crew explorer."
+                    }
+                },
+                {
+                    "Anvil Centurion": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/913-Anvil-Centurion",
+                        "text": "All tasks required for the implementation of the Centurion anti-air ground vehicle."
+                    }
+                },
+                {
+                    "Drake Mule": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/907-Drake-Mule",
+                        "text": "All tasks required for the implementation of the Drake Mule cargo vehicle."
+                    }
+                },
+                {
+                    "RSI Scorpius": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/849-RSI-Scorpius",
+                        "text": "All tasks required for the implementation of the Scorpius heavy fighter."
+                    }
+                },
+                {
+                    "MISC Hull A": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/852-MISC-Hull-A",
+                        "text": "All tasks required for the implementation of the MISC Hull A cargo hauler"
+                    }
+                }
+            ]
+        },
+        "Core Tech": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Rivers - Core Tech": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/900-Rivers-Core-Tech",
+                        "text": "Developing River Tech to be deployed within the persistent universe."
+                    }
+                }
+            ]
+        }
+    },
+    "3.18": {
+        "status": "Released",
+        "date": "March 10, 2023",
+        "Locations": {
+            "amount": "4 entries",
+            "entries": [
+                {
+                    "Daymar Crash Site": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/915-Daymar-Crash-Site",
+                        "text": "Derelict settlement of StarRunner & 600i crashsites on Daymar"
+                    }
+                },
+                {
+                    "New Rivers in Stanton": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/916-New-Rivers-In-Stanton",
+                        "text": "Introducing additional rivers in the Stanton system"
+                    }
+                },
+                {
+                    "Sand Cave Archetype": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/921-Sand-Cave-Archetype",
+                        "text": "Building and distributing sand caves in Stanton."
+                    }
+                },
+                {
+                    "Greycat PTV Race Track": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/924-Greycat-PTV-Race-Track",
+                        "text": "Implementing a new PTV race track in the city of Orison."
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "6 entries",
+            "entries": [
+                {
+                    "Cargo System Refactor": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/889-Cargo-System-Refactor",
+                        "text": "Refactor of the ship cargo system to support found and purchased cargo"
+                    }
+                },
+                {
+                    "Sandbox Prison Activities": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/918-Sandbox-Prison-Activities",
+                        "text": "New suite of missions and sandbox activities to give inmates more opportunities to earn merits."
+                    }
+                },
+                {
+                    "Security Post Kareah Reactivation": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/919-Security-Post-Kareah-Reactivation",
+                        "text": "Crusader Security have moved back into Kareah and are bringing the station back online"
+                    }
+                },
+                {
+                    "New Missions - Orison": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/920-New-Missions-Orison",
+                        "text": "Bounty, Assassinate, Clear All and other missions to take place on the platforms created for Siege of Orison"
+                    }
+                },
+                {
+                    "Time Trial Race Missions": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/927-Time-Trial-Race-Missions",
+                        "text": "Players will be able to test their maneuvering skills on various race tracks around Stanton."
+                    }
+                },
+                {
+                    "Salvage - Hull Stripping": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/888-Salvage-Hull-Stripping",
+                        "text": "Hull stripping and repair of ships"
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Drake Vulture": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/879-Drake-Vulture",
+                        "text": "All tasks required for the implementation of the Drake Vulture salvage ship."
+                    }
+                },
+                {
+                    "RSI Scorpius Antares": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/935-RSI-Scorpius-Antares",
+                        "text": "All tasks required for the implementation of the RSI Scorpius Antares"
+                    }
+                }
+            ]
+        },
+        "Weapons and Items": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Greycat Multi-tool Salvage Attachment": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/839-Greycat-Multi-Tool-Salvage-Attachment",
+                        "text": "Creation and implementation of the new multi-tool salvage attachment"
+                    }
+                }
+            ]
+        },
+        "Core Tech": {
+            "amount": "2 entries",
+            "entries": [
+                {
+                    "Persistent Entity Streaming": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/906-Persistent-Entity-Streaming",
+                        "text": "Core technology to allow all items to fully persist in the game universe"
+                    }
+                },
+                {
+                    "Gen12 Scene Renderer": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/928-Gen12-Scene-Renderer",
+                        "text": "New Rendering Architecture to improve performance."
+                    }
+                }
+            ]
+        }
+    },
+    "3.19": {
+        "status": "Released",
+        "date": "May 16, 2023",
+        "Locations": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Lorville Cityscape": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/931-Lorville-Cityscape",
+                        "text": "A rework of the Lorville landing zone's skyline."
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "4 entries",
+            "entries": [
+                {
+                    "New Player Experience": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/932-New-Player-Experience",
+                        "text": "An initiative for improving the initial (first 30 minutes) gameplay experience"
+                    }
+                },
+                {
+                    "New Missions - Salvage Contracts": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/933-New-Missions-Salvage-Contracts",
+                        "text": "Addition of contracts players can buy into in order to find derelict ships to salvage."
+                    }
+                },
+                {
+                    "New Missions - Ghost Hollow PVP Mission": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/934-New-Missions-Ghost-Hollow-PVP-Mission",
+                        "text": "Adding a new player vs. player mission type to Ghost Hollow on microTech."
+                    }
+                },
+                {
+                    "Tractor Beam - Attach and Detach": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/941-Tractor-Beam-Attach-And-Detach",
+                        "text": "Enabling hand held tractor beams to attach and detach items"
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "3 entries",
+            "entries": [
+                {
+                    "RSI Lynx": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/945-RSI-Lynx",
+                        "text": "All tasks required for the implementation of the RSI Lynx Rover."
+                    }
+                },
+                {
+                    "Mirai Fury": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/954-Mirai-Fury",
+                        "text": "All tasks required for the implementation of the Mirai Fury."
+                    }
+                },
+                {
+                    "Mirai Fury MX": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/955-Mirai-Fury-MX",
+                        "text": "All tasks required for the implementation of the Mirai Fury MX"
+                    }
+                }
+            ]
+        }
+    },
+    "3.20": {
+        "status": "Released",
+        "date": "September 19, 2023",
+        "Locations": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Seraphim Station": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/958-Seraphim-Station",
+                        "text": "A new LEO station orbiting Crusader above Orison"
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "10 entries",
+            "entries": [
+                {
+                    "Arena Commander: Frontend Update": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/946-Arena-Commander-Frontend-Update",
+                        "text": "Star Marine and Electronic Access merge into \"Arena Commander\" in this remade Frontend utilizing Building Blocks."
+                    }
+                },
+                {
+                    "Arena Commander: New Racetracks": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/947-Arena-Commander-New-Racetracks",
+                        "text": "Adding four racetracks from the persistent universe alongside a new addition to New Horizon Speedway"
+                    }
+                },
+                {
+                    "Arena Commander: New Horizon Speedway Rework": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/948-Arena-Commander-New-Horizon-Speedway-Rework",
+                        "text": "Placing New Horizon Speedway above its atmospheric home, the planet Green in the Ellis system."
+                    }
+                },
+                {
+                    "Arena Commander: New Dogfighting Map - Jericho Station": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/949-Arena-Commander-New-Dogfighting-Map-Jericho-Station",
+                        "text": "The INS Jericho debuts as the first persistent universe location to be added to the dogfighting map lineup"
+                    }
+                },
+                {
+                    "Arena Commander: New Elimination Map - Echo11": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/950-Arena-Commander-New-Elimination-Map-Echo11",
+                        "text": "FPS map Echo11 now playable in Elimination"
+                    }
+                },
+                {
+                    "Arena Commander: Experimental Game Modes": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/951-Arena-Commander-Experimental-Game-Modes",
+                        "text": "Limited-time rotating game modes"
+                    }
+                },
+                {
+                    "Arena Commander: New Dogfighting Map - Winner's Circle": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/952-Arena-Commander-New-Dogfighting-Map-Winners-Circle",
+                        "text": "Hosted around the locations of the New Horizon Speedway racetracks comes the first in-atmosphere dogfighting map"
+                    }
+                },
+                {
+                    "Arena Commander: New Map - Security Post Kareah": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/953-Arena-Commander-New-Map-Security-Post-Kareah",
+                        "text": "Stanton\u2019s most popular Security Post plays host to all FPS & Dogfighting Modes."
+                    }
+                },
+                {
+                    "New Missions - Salvage Contracts: Coverup": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/957-New-Missions-Salvage-Contracts-Coverup",
+                        "text": "Strip the hulls of criminal ships to hide evidence of their presence"
+                    }
+                },
+                {
+                    "Physicalized Cargo Updates": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/962-Physicalized-Cargo-Updates",
+                        "text": "New cargo functionality including both Hull C support and large SCU containers."
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "4 entries",
+            "entries": [
+                {
+                    "Wheeled Vehicle Handling Improvements": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/956-Wheeled-Vehicle-Handling-Improvements",
+                        "text": "Improvements to wheeled ground vehicle movement and handling."
+                    }
+                },
+                {
+                    "MISC Hull C": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/960-MISC-Hull-C",
+                        "text": "All tasks required for the implementation of the MISC Hull C cargo vessel."
+                    }
+                },
+                {
+                    "Mirai Fury LX": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/965-Mirai-Fury-LX",
+                        "text": "All tasks required for the implementation of the Mirai Fury LX"
+                    }
+                },
+                {
+                    "Anvil F8C Lightning": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/971-Anvil-F8C-Lightning",
+                        "text": "All tasks required for the implementation of the F8C heavy fighter."
+                    }
+                }
+            ]
+        }
+    },
+    "3.21": {
+        "status": "Released",
+        "date": "October 19, 2023",
+        "Locations": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "New Crusader Platforms": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/959-New-Crusader-Platforms",
+                        "text": "New points of interest in Crusader's atmosphere."
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "5 entries",
+            "entries": [
+                {
+                    "New Missions - Retrieve Consignment": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/944-New-Missions-Retrieve-Consignment",
+                        "text": "Locating and retrieving a consignment of goods for a organization or individual "
+                    }
+                },
+                {
+                    "Vehicle Tractor Beams": {
+                        "status": "Committed",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/967-Vehicle-Tractor-Beams",
+                        "text": "Implementation"
+                    }
+                },
+                {
+                    "New Missions - Steal Evidence": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/970-New-Missions-Steal-Evidence",
+                        "text": "Steal files from Crusader Security at Security Post Kareah"
+                    }
+                },
+                {
+                    "Ship Trespass": {
+                        "status": "Tentative",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/973-Ship-Trespass",
+                        "text": "Interior of player ships are now trespass zones for those without permission to enter, with permissions granted via the party system"
+                    }
+                },
+                {
+                    "New Missions - Data Heist": {
+                        "status": "Committed",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/981-New-Missions-Data-Heist",
+                        "text": "Implementing the stealing / uploading of data from various locations to an offsite handler."
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "5 entries",
+            "entries": [
+                {
+                    "Crusader A1 Spirit": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/961-Crusader-A1-Spirit",
+                        "text": "All tasks required for the implementation of the Crusader A1 Spirit light bomber."
+                    }
+                },
+                {
+                    "Crusader C1 Spirit": {
+                        "status": "Committed",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/963-Crusader-C1-Spirit",
+                        "text": "All tasks required for the implementation of the Crusader C1 Spirit cargo ship."
+                    }
+                },
+                {
+                    "Tumbril Storm": {
+                        "status": "Committed",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/964-Tumbril-Storm",
+                        "text": "All tasks required for the implementation of the Tumbril Storm light tank."
+                    }
+                },
+                {
+                    "Argo SRV": {
+                        "status": "Committed",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/968-Argo-SRV",
+                        "text": "All tasks required for the implementation of the Argo SRV."
+                    }
+                },
+                {
+                    "Drake Cutter Scout": {
+                        "status": "Released",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/972-Drake-Cutter-Scout",
+                        "text": "All tasks required for the implementation of the Drake Cutter Scout."
+                    }
+                }
+            ]
+        },
+        "Core Tech": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Replication Layer Update": {
+                        "status": "Tentative",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/969-Replication-Layer-Update",
+                        "text": "Separating the Replication Layer from the game server to prepare for a server-meshed environment."
+                    }
+                }
+            ]
+        }
+    },
+    "3.22": {
+        "status": "Tentative",
+        "date": "Q4 2023",
+        "Characters": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "Player Hair Update": {
+                        "status": "Committed",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/979-Player-Hair-Update",
+                        "text": "New hairstyles for player characters in Star Citizen"
+                    }
+                }
+            ]
+        },
+        "Locations": {
+            "amount": "1 entry",
+            "entries": [
+                {
+                    "New Derelict Settlements": {
+                        "status": "Tentative",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/983-New-Derelict-Settlements",
+                        "text": "New derelict settlement locations in Stanton"
+                    }
+                }
+            ]
+        },
+        "Gameplay": {
+            "amount": "5 entries",
+            "entries": [
+                {
+                    "Salvage - Structural": {
+                        "status": "Tentative",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/978-Salvage-Structural",
+                        "text": "Transform large chunks of metal from salvaged ships into refinable material"
+                    }
+                },
+                {
+                    "Inventory - Cargo Containers": {
+                        "status": "Tentative",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/982-Inventory-Cargo-Containers",
+                        "text": "Allow players to store smaller items in larger cargo containers"
+                    }
+                },
+                {
+                    "Arena Commander: New Map - Bloodshot Ridge": {
+                        "status": "Tentative",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/984-Arena-Commander-New-Map-Bloodshot-Ridge",
+                        "text": "A new Arena Commander FPS and Flight map set in a derelict settlement."
+                    }
+                },
+                {
+                    "Arena Commander: New Map - Maker's Point": {
+                        "status": "Tentative",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/985-Arena-Commander-New-Map-Makers-Point",
+                        "text": "A new FPS map in Arena Commander set in a settlement on Hurston."
+                    }
+                },
+                {
+                    "Arena Commander: Multicrew & Spawn Locations": {
+                        "status": "Tentative",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/986-Arena-Commander-Multicrew-Spawn-Locations",
+                        "text": "Spawn selector updates to allow for multicrew and location selection."
+                    }
+                }
+            ]
+        },
+        "Ships and Vehicles": {
+            "amount": "4 entries",
+            "entries": [
+                {
+                    "Aopoa San'tok.y\u0101i": {
+                        "status": "Tentative",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/974-Aopoa-Santoky-i",
+                        "text": "All tasks required for the implementation of the Aopoa San'tok.y\u0101i medium fighter."
+                    }
+                },
+                {
+                    "Origin X1": {
+                        "status": "Tentative",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/975-Origin-X1",
+                        "text": "All tasks required for the implementation of the Origin X1 hover bike."
+                    }
+                },
+                {
+                    "Origin X1 Velocity": {
+                        "status": "Tentative",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/976-Origin-X1-Velocity",
+                        "text": "All tasks required for the implementation of the Origin X1 Velocity racing bike."
+                    }
+                },
+                {
+                    "Origin X1 Force": {
+                        "status": "Tentative",
+                        "link": "https://robertsspaceindustries.com/roadmap/release-view/977-Origin-X1-Force",
+                        "text": "All tasks required for the implementation of the Origin X1 Force pathfinder bike."
+                    }
+                }
+            ]
+        }
+    }
+}

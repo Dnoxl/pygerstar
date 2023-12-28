@@ -10,6 +10,7 @@ __pycache__
 sounds
 media/evidence
 .vscode
+persistent_storage
 
 # Files
 german-starmarine.json
